@@ -10,8 +10,8 @@ import java.util.List;
 public class jackKnifeSingleFamily {
 
     public static void main(String[] args) {
-        File file = new File("data/in/family_self/Acidaminococcaceae.fa.out");
-        String outputFilePath = "data/out/singleFamilyJackKnife.txt";
+        File file = new File("data/in/family_self/Pseudoalteromonadaceae.fa.out");
+        String outputFilePath = "data/out/singleFamilyJackKnife_Pseudoalteromonadaceae.txt";
 
         List<BigDecimal> scores = new ArrayList<>();
         List<String> speciesName = new ArrayList<>();
@@ -32,8 +32,8 @@ public class jackKnifeSingleFamily {
                     scores.add(new BigDecimal(columns[columns.length - 1]));
                 }
                 fr.close();
-                System.out.println(speciesName);
-                System.out.println(scores);
+//                System.out.println(speciesName);
+//                System.out.println(scores);
 
                 //pair species and scores together
                 for (int i = 0; i < scores.size(); i++) {
