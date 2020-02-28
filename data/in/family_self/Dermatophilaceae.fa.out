@@ -1,0 +1,15 @@
+AB096084	1534	7532	Dermatophilaceae	Tonsilliphilus suis	AB550799	1473	7365	Dermatophilaceae	Piscicoccus intestinalis	6692.0	1497	34	58	1393	0.9680	0.9086
+AB096084	1534	7532	Dermatophilaceae	Tonsilliphilus suis	AJ243918	1464	7320	Dermatophilaceae	Dermatophilus congolensis	6665.0	1484	41	61	1385	0.9733	0.9105
+AB096084	1534	7532	Dermatophilaceae	Tonsilliphilus suis	AJ243919	1440	7200	Dermatophilaceae	Austwickia chelonae	6383.0	1457	56	73	1342	0.9697	0.8865
+AB096084	1534	7532	Dermatophilaceae	Tonsilliphilus suis	AF109792	1461	7299	Dermatophilaceae	Kineosphaera limosa	6465.0	1483	52	74	1361	0.9659	0.8857
+AB096084	1534	7532	Dermatophilaceae	Tonsilliphilus suis	AB550798	1474	7370	Dermatophilaceae	Mobilicoccus pelagius	6627.0	1497	39	62	1386	0.9659	0.8992
+AB550799	1473	7365	Dermatophilaceae	Piscicoccus intestinalis	AJ243918	1464	7320	Dermatophilaceae	Dermatophilus congolensis	6817.0	1453	30	29	1401	0.9838	0.9313
+AB550799	1473	7365	Dermatophilaceae	Piscicoccus intestinalis	AJ243919	1440	7200	Dermatophilaceae	Austwickia chelonae	6729.0	1433	37	35	1382	0.9886	0.9346
+AB550799	1473	7365	Dermatophilaceae	Piscicoccus intestinalis	AF109792	1461	7299	Dermatophilaceae	Kineosphaera limosa	6912.0	1461	28	28	1415	0.9874	0.9470
+AB550799	1473	7365	Dermatophilaceae	Piscicoccus intestinalis	AB550798	1474	7370	Dermatophilaceae	Mobilicoccus pelagius	6971.0	1473	27	26	1427	0.9862	0.9465
+AJ243918	1464	7320	Dermatophilaceae	Dermatophilus congolensis	AJ243919	1440	7200	Dermatophilaceae	Austwickia chelonae	6643.0	1441	42	43	1375	0.9835	0.9226
+AJ243918	1464	7320	Dermatophilaceae	Dermatophilus congolensis	AF109792	1461	7299	Dermatophilaceae	Kineosphaera limosa	6682.0	1454	44	45	1385	0.9830	0.9155
+AJ243918	1464	7320	Dermatophilaceae	Dermatophilus congolensis	AB550798	1474	7370	Dermatophilaceae	Mobilicoccus pelagius	6782.0	1454	36	36	1397	0.9852	0.9265
+AJ243919	1440	7200	Dermatophilaceae	Austwickia chelonae	AF109792	1461	7299	Dermatophilaceae	Kineosphaera limosa	6687.0	1435	33	35	1377	0.9836	0.9287
+AJ243919	1440	7200	Dermatophilaceae	Austwickia chelonae	AB550798	1474	7370	Dermatophilaceae	Mobilicoccus pelagius	6806.0	1435	21	22	1392	0.9851	0.9453
+AF109792	1461	7299	Dermatophilaceae	Kineosphaera limosa	AB550798	1474	7370	Dermatophilaceae	Mobilicoccus pelagius	6824.0	1461	33	32	1405	0.9832	0.9349

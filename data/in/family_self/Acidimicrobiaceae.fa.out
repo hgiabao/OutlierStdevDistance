@@ -1,0 +1,15 @@
+AY140237	1331	6655	Acidimicrobiaceae	Ferrithrix thermotolerans	AB360346	1443	7215	Acidimicrobiaceae	Ilumatobacter coccineum	5154.0	1311	110	111	1144	0.9533	0.7745
+AY140237	1331	6655	Acidimicrobiaceae	Ferrithrix thermotolerans	AB360343	1360	6800	Acidimicrobiaceae	Ilumatobacter fluminis	5312.0	1311	88	92	1164	0.9549	0.7982
+AY140237	1331	6655	Acidimicrobiaceae	Ferrithrix thermotolerans	U75647	1465	7325	Acidimicrobiaceae	Acidimicrobium ferrooxidans	5721.0	1331	52	70	1217	0.9651	0.8597
+AY140237	1331	6655	Acidimicrobiaceae	Ferrithrix thermotolerans	AB360345	1443	7215	Acidimicrobiaceae	Ilumatobacter nonamiense	5253.0	1311	101	102	1156	0.9562	0.7893
+AY140237	1331	6655	Acidimicrobiaceae	Ferrithrix thermotolerans	AF251436	1466	7330	Acidimicrobiaceae	Ferrimicrobium acidiphilum	6092.0	1331	34	32	1266	0.9746	0.9154
+AB360346	1443	7215	Acidimicrobiaceae	Ilumatobacter coccineum	AB360343	1360	6800	Acidimicrobiaceae	Ilumatobacter fluminis	6313.0	1363	26	29	1304	0.9775	0.9284
+AB360346	1443	7215	Acidimicrobiaceae	Ilumatobacter coccineum	U75647	1465	7325	Acidimicrobiaceae	Acidimicrobium ferrooxidans	5623.0	1443	108	127	1250	0.9498	0.7793
+AB360346	1443	7215	Acidimicrobiaceae	Ilumatobacter coccineum	AB360345	1443	7215	Acidimicrobiaceae	Ilumatobacter nonamiense	6931.0	1443	13	13	1410	0.9860	0.9606
+AB360346	1443	7215	Acidimicrobiaceae	Ilumatobacter coccineum	AF251436	1466	7330	Acidimicrobiaceae	Ferrimicrobium acidiphilum	5784.0	1443	106	103	1275	0.9515	0.8017
+AB360343	1360	6800	Acidimicrobiaceae	Ilumatobacter fluminis	U75647	1465	7325	Acidimicrobiaceae	Acidimicrobium ferrooxidans	5414.0	1360	88	103	1194	0.9499	0.7962
+AB360343	1360	6800	Acidimicrobiaceae	Ilumatobacter fluminis	AB360345	1443	7215	Acidimicrobiaceae	Ilumatobacter nonamiense	6375.0	1360	25	22	1311	0.9798	0.9375
+AB360343	1360	6800	Acidimicrobiaceae	Ilumatobacter fluminis	AF251436	1466	7330	Acidimicrobiaceae	Ferrimicrobium acidiphilum	5570.0	1360	89	83	1217	0.9530	0.8191
+U75647	1465	7325	Acidimicrobiaceae	Acidimicrobium ferrooxidans	AB360345	1443	7215	Acidimicrobiaceae	Ilumatobacter nonamiense	5685.0	1424	121	102	1258	0.9516	0.7879
+U75647	1465	7325	Acidimicrobiaceae	Acidimicrobium ferrooxidans	AF251436	1466	7330	Acidimicrobiaceae	Ferrimicrobium acidiphilum	6492.0	1444	59	37	1363	0.9687	0.8863
+AB360345	1443	7215	Acidimicrobiaceae	Ilumatobacter nonamiense	AF251436	1466	7330	Acidimicrobiaceae	Ferrimicrobium acidiphilum	5857.0	1443	108	105	1283	0.9589	0.8118

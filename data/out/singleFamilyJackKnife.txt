@@ -1,0 +1,5 @@
+Excluded species: Phascolarctobacterium succinatutens	0.8637	0.03300
+Excluded species: Acidaminococcus fermentans	0.8631	0.03141
+Excluded species: Succiniclasticum ruminis	0.8709	0.02587
+Excluded species: Acidaminococcus intestini	0.8622	0.03036
+Excluded species: Phascolarctobacterium faecium	0.8640	0.03111

@@ -1,0 +1,6 @@
+FR775984	1433	7165	Actinospicaceae	Actinocrinis puniceicyclus	KJ445732	1426	7130	Actinospicaceae	Actinospica durhamensis	6417.0	1433	39	79	1334	0.9852	0.9000
+FR775984	1433	7165	Actinospicaceae	Actinocrinis puniceicyclus	AJ865861	1446	7230	Actinospicaceae	Actinospica acidiphila	6370.0	1433	44	83	1328	0.9837	0.8890
+FR775984	1433	7165	Actinospicaceae	Actinocrinis puniceicyclus	AJ865863	1440	7200	Actinospicaceae	Actinospica robiniae	6464.0	1433	36	72	1341	0.9853	0.9022
+KJ445732	1426	7130	Actinospicaceae	Actinospica durhamensis	AJ865861	1446	7230	Actinospicaceae	Actinospica acidiphila	6850.0	1422	28	24	1392	0.9957	0.9607
+KJ445732	1426	7130	Actinospicaceae	Actinospica durhamensis	AJ865863	1440	7200	Actinospicaceae	Actinospica robiniae	7013.0	1418	13	7	1410	0.9993	0.9836
+AJ865861	1446	7230	Actinospicaceae	Actinospica acidiphila	AJ865863	1440	7200	Actinospicaceae	Actinospica robiniae	6969.0	1437	21	18	1412	0.9951	0.9679
