@@ -1,35 +1,52 @@
 package com.main;
 
+import java.math.BigDecimal;
+import java.math.MathContext;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class test {
     public static void main(String[] args) {
-        List<Double> scores = Arrays.asList(0.8664, 0.8518, 0.8796, 0.8925, 0.8486, 0.8509, 0.937, 0.8874, 0.8433, 0.8098, 0.8741, 0.8279, 0.8885, 0.8378, 0.8633);
-        System.out.println(scores);
-        System.out.println(mean(scores));
+        //Zoogloeaceae.fa.out
+        List<BigDecimal> bigDecimalList = new ArrayList<>();
+        List<String> stringList = Arrays.asList("0.9429", "0.9439", "0.9422", "0.9663", "0.9584", "0.9341", "0.9503", "0.9570", "0.9497",
+                "0.9386");
+
+        for (String value : stringList) {
+            bigDecimalList.add(new BigDecimal(value));
+        }
+
+        System.out.println(bigDecimalList);
+        System.out.println(bigDecimalList.get(0).getClass());
+
+        System.out.println(mean(bigDecimalList));
+        System.out.println(stdev(bigDecimalList));
 
     }
 
-    public static double mean(List<Double> x) {
-        double sum = 0.0;
-        for (int i = 0; i < x.size(); i++) {
-            sum += x.get(i);
+    public static BigDecimal mean(List<BigDecimal> x) {
+        MathContext mc = new MathContext(10);
+        BigDecimal sum = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
+        for (BigDecimal y : x) {
+            sum = sum.add(y, mc);
         }
-        return sum / x.size();
+        return sum.divide(size, new MathContext(4));
     }
 
-    public static double stdev(List<Double> x) {
-        double mean = mean(x);
-        double temp = 0;
+    public static BigDecimal stdev(List<BigDecimal> x) {
+        MathContext mc = new MathContext(10);
+        BigDecimal mean = mean(x);
+        BigDecimal temp = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
 
-        for (int i = 0; i < x.size(); i++) {
-            double val = x.get(i);
-            double squrDiffToMean = Math.pow(val - mean, 2);
-            temp += squrDiffToMean;
+        for (BigDecimal val : x) {
+            BigDecimal squrDiffToMean = val.subtract(mean, mc).pow(2, mc);
+            temp = temp.add(squrDiffToMean, mc);
         }
 
-        double meanOfDiffs = temp / x.size();
-        return Math.sqrt(meanOfDiffs);
+        BigDecimal meanOfDiffs = temp.divide(size, mc);
+        return meanOfDiffs.sqrt(new MathContext(4));
     }
 }
