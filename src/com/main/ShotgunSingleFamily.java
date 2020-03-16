@@ -46,10 +46,10 @@ public class ShotgunSingleFamily {
 
                 //remove a species&score pair, then calculate mean & stdev
                 for (String Species : speciesNameNoDuplicate) {
+                    //Separate potential outlier and rest of cluster into 2 lists
                     List<speciesNameAndScorePair> tempList = new ArrayList<>();
                     List<speciesNameAndScorePair> tempListExcluded = new ArrayList<>();
                     int j = 0;
-
                     while (j < Pair.size()) {
                         if (Pair.get(j).getName().equals(Species)) {
                             tempListExcluded.add(Pair.get(j));
@@ -57,9 +57,27 @@ public class ShotgunSingleFamily {
                         j++;
                     }
 
+                    //Get avg similarity for rest of cluster
+                    List<BigDecimal> othersAvgs = new ArrayList<>();
+                    for (String s : speciesNameNoDuplicate) {
+                        List<speciesNameAndScorePair> tempList1 = new ArrayList<>();
+                        int k = 0;
+                        while (k < tempList.size()) {
+                            if (tempList.get(k).getName().equals(s)) {
+                                tempList1.add(tempList.get(k));
+                            }
+                            k++;
+                        }
+
+                        if (tempList1.size() > 0) {
+                            BigDecimal speciesAvg = meanPair(tempList1, 4);
+                            othersAvgs.add(speciesAvg);
+                        }
+                    }
+
                     BigDecimal speciesAvg = meanPair(tempListExcluded, 4);
-                    BigDecimal othersAvg = meanPair(tempList, 4);
-                    BigDecimal othersStdev = stdevPair(tempList, 4);
+                    BigDecimal othersAvg = mean(othersAvgs, 4);
+                    BigDecimal othersStdev = stdev(othersAvgs, 4);
                     BigDecimal numOfStdevAway = (speciesAvg.subtract(othersAvg)).abs().divide(othersStdev, new MathContext(4));
                     String str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + numOfStdevAway + "\n";
                     fw.write(str);
