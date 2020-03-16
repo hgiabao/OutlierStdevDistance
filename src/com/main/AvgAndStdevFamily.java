@@ -8,11 +8,11 @@ import java.util.LinkedHashSet;
 import java.util.List;
 
 //Output file syntax: <excluded species> <avg_rest_of_cluster> <stdev_rest_of_cluster> <avg_excluded_species> <#_of_stdev_away>
-public class AvgScoreFamily {
+public class AvgAndStdevFamily {
 
     public static void main(String[] args) {
         File file = new File("data/in/family_self/Zoogloeaceae.fa.out");
-        String outputFilePath = "data/out/singleFamilyJackKnife_Zoogloeaceae.txt";
+        String outputFilePath = "data/out/Zoogloeaceae.txt";
 
         List<String> speciesName = new ArrayList<>();
         List<speciesNameAndScorePair> Pair = new ArrayList<>();
@@ -43,27 +43,23 @@ public class AvgScoreFamily {
                 List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
 
                 //remove a species&score pair, then calculate mean & stdev
-                for (String excludedSpecies : speciesNameNoDuplicate) {
-                    List<speciesNameAndScorePair> tempListExcluded = new ArrayList<>();
-                    List<speciesNameAndScorePair> tempList = new ArrayList<>(Pair);
+                List<BigDecimal> speciesMeans = new ArrayList<>();
+                for (String Species : speciesNameNoDuplicate) {
+                    List<speciesNameAndScorePair> tempList = new ArrayList<>();
 
                     int j = 0;
-                    while (j < tempList.size()) {
-                        if (tempList.get(j).getName().equals(excludedSpecies)) {
-                            tempListExcluded.add(tempList.get(j));
-                            tempList.remove(j);
-                            j = 0;
+                    while (j < Pair.size()) {
+                        if (Pair.get(j).getName().equals(Species)) {
+                            tempList.add(Pair.get(j));
                         }
-                        else j++;
+                        j++;
                     }
 
-                    BigDecimal avgDiff = (mean(tempList,7).subtract(mean(tempListExcluded,7))).abs();
-                    BigDecimal numOfStdev = avgDiff.divide(stdev(tempList,7), new MathContext(4));
-
-                    String str = "Excluded species: " + excludedSpecies + "\t" + mean(tempList,4 ) + "\t" + stdev(tempList,4) + "\t"
-                            + mean(tempListExcluded,4) + "\t" + numOfStdev + "\n";
-                    fw.write(str);
+                    BigDecimal speciesAvg = meanPair(tempList, 4);
+                    speciesMeans.add(speciesAvg);
                 }
+                String str = mean(speciesMeans, 4) + "\t" + stdev(speciesMeans,4);
+                fw.write(str);
             }
             fw.close();
         } catch (IOException e) {
@@ -71,8 +67,7 @@ public class AvgScoreFamily {
         }
     }
 
-    public static BigDecimal mean(List<speciesNameAndScorePair> x, int mathContext) {
-        MathContext mc = new MathContext(20);
+    public static BigDecimal meanPair(List<speciesNameAndScorePair> x, int mathContext) {
         BigDecimal sum = new BigDecimal("0");
         BigDecimal size = new BigDecimal(Integer.toString(x.size()));
         for (int i = 0; i < x.size(); i++) {
@@ -81,14 +76,39 @@ public class AvgScoreFamily {
         return sum.divide(size, new MathContext(mathContext));
     }
 
-    public static BigDecimal stdev(List<speciesNameAndScorePair> x, int mathContext) {
-        MathContext mc = new MathContext(20);
-        BigDecimal mean = mean(x, 20);
+    public static BigDecimal mean(List<BigDecimal> x, int mathContext) {
+        BigDecimal sum = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
+        for (int i = 0; i < x.size(); i++) {
+            sum = sum.add(x.get(i));
+        }
+        return sum.divide(size, new MathContext(mathContext));
+    }
+
+    public static BigDecimal stdevPair(List<speciesNameAndScorePair> x, int mathContext) {
+        MathContext mc = new MathContext(7);
+        BigDecimal mean = meanPair(x, 7);
         BigDecimal temp = new BigDecimal("0");
         BigDecimal size = new BigDecimal(Integer.toString(x.size()));
 
         for (int i = 0; i < x.size(); i++) {
             BigDecimal val = x.get(i).getScore();
+            BigDecimal squrDiffToMean = val.subtract(mean, mc).pow(2);
+            temp = temp.add(squrDiffToMean, mc);
+        }
+
+        BigDecimal meanOfDiffs = temp.divide(size, mc);
+        return meanOfDiffs.sqrt(new MathContext(mathContext));
+    }
+
+    public static BigDecimal stdev(List<BigDecimal> x, int mathContext) {
+        MathContext mc = new MathContext(7);
+        BigDecimal mean = mean(x, 7);
+        BigDecimal temp = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
+
+        for (int i = 0; i < x.size(); i++) {
+            BigDecimal val = x.get(i);
             BigDecimal squrDiffToMean = val.subtract(mean, mc).pow(2);
             temp = temp.add(squrDiffToMean, mc);
         }
