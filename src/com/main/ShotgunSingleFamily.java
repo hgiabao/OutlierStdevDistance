@@ -7,11 +7,14 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-public class jackKnifeSingleFamily {
+//Output file syntax: <excluded species> <avg_rest_of_cluster> <stdev_rest_of_cluster> <avg_excluded_species> <#_of_stdev_away>
+public class ShotgunSingleFamily {
+
+    private String str;
 
     public static void main(String[] args) {
         File file = new File("data/in/family_self/Zoogloeaceae.fa.out");
-        String outputFilePath = "data/out/singleFamilyJackKnife_Zoogloeaceae.txt";
+        String outputFilePath = "data/out/Zoogloeaceae.txt";
 
         List<String> speciesName = new ArrayList<>();
         List<speciesNameAndScorePair> Pair = new ArrayList<>();
@@ -25,7 +28,6 @@ public class jackKnifeSingleFamily {
                 BufferedReader br = new BufferedReader(fr);
                 String line;
 
-                //read in each line, get species name and
                 while ((line = br.readLine()) != null) {
                     String[] columns = line.split("\t");
                     speciesName.add(columns[4]);
@@ -43,19 +45,23 @@ public class jackKnifeSingleFamily {
                 List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
 
                 //remove a species&score pair, then calculate mean & stdev
-                for (String tempName : speciesNameNoDuplicate) {
-                    List<speciesNameAndScorePair> tempPair = new ArrayList<>(Pair);
-
+                for (String Species : speciesNameNoDuplicate) {
+                    List<speciesNameAndScorePair> tempList = new ArrayList<>();
+                    List<speciesNameAndScorePair> tempListExcluded = new ArrayList<>();
                     int j = 0;
-                    while (j < tempPair.size()) {
-                        if (tempPair.get(j).getName().equals(tempName)) {
-                            tempPair.remove(j);
-                            j = 0;
-                        }
-                        else j++;
+
+                    while (j < Pair.size()) {
+                        if (Pair.get(j).getName().equals(Species)) {
+                            tempListExcluded.add(Pair.get(j));
+                        } else tempList.add(Pair.get(j));
+                        j++;
                     }
 
-                    String str = "Excluded species: " + tempName + "\t" + mean(tempPair) + "\t" + stdev(tempPair) + "\n";
+                    BigDecimal speciesAvg = meanPair(tempListExcluded, 4);
+                    BigDecimal othersAvg = meanPair(tempList, 4);
+                    BigDecimal othersStdev = stdevPair(tempList, 4);
+                    BigDecimal numOfStdevAway = (speciesAvg.subtract(othersAvg)).abs().divide(othersStdev, new MathContext(4));
+                    String str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + numOfStdevAway + "\n";
                     fw.write(str);
                 }
             }
@@ -65,19 +71,27 @@ public class jackKnifeSingleFamily {
         }
     }
 
-    public static BigDecimal mean(List<speciesNameAndScorePair> x) {
-        MathContext mc = new MathContext(20);
+    public static BigDecimal meanPair(List<speciesNameAndScorePair> x, int mathContext) {
         BigDecimal sum = new BigDecimal("0");
         BigDecimal size = new BigDecimal(Integer.toString(x.size()));
         for (int i = 0; i < x.size(); i++) {
             sum = sum.add(x.get(i).getScore());
         }
-        return sum.divide(size, new MathContext(4));
+        return sum.divide(size, new MathContext(mathContext));
     }
 
-    public static BigDecimal stdev(List<speciesNameAndScorePair> x) {
-        MathContext mc = new MathContext(20);
-        BigDecimal mean = mean(x);
+    public static BigDecimal mean(List<BigDecimal> x, int mathContext) {
+        BigDecimal sum = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
+        for (int i = 0; i < x.size(); i++) {
+            sum = sum.add(x.get(i));
+        }
+        return sum.divide(size, new MathContext(mathContext));
+    }
+
+    public static BigDecimal stdevPair(List<speciesNameAndScorePair> x, int mathContext) {
+        MathContext mc = new MathContext(7);
+        BigDecimal mean = meanPair(x, 7);
         BigDecimal temp = new BigDecimal("0");
         BigDecimal size = new BigDecimal(Integer.toString(x.size()));
 
@@ -88,7 +102,23 @@ public class jackKnifeSingleFamily {
         }
 
         BigDecimal meanOfDiffs = temp.divide(size, mc);
-        return meanOfDiffs.sqrt(new MathContext(4));
+        return meanOfDiffs.sqrt(new MathContext(mathContext));
+    }
+
+    public static BigDecimal stdev(List<BigDecimal> x, int mathContext) {
+        MathContext mc = new MathContext(7);
+        BigDecimal mean = mean(x, 7);
+        BigDecimal temp = new BigDecimal("0");
+        BigDecimal size = new BigDecimal(Integer.toString(x.size()));
+
+        for (int i = 0; i < x.size(); i++) {
+            BigDecimal val = x.get(i);
+            BigDecimal squrDiffToMean = val.subtract(mean, mc).pow(2);
+            temp = temp.add(squrDiffToMean, mc);
+        }
+
+        BigDecimal meanOfDiffs = temp.divide(size, mc);
+        return meanOfDiffs.sqrt(new MathContext(mathContext));
     }
 
     public static List removeDuplicateInList(List a) {
