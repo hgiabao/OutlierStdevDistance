@@ -1,0 +1,4 @@
+Excluded species: Zoogloea oryzae	0.9480	0.008934
+Excluded species: Zoogloea resiniphila	0.9487	0.009107
+Excluded species: Zoogloea caeni	0.9471	0.009998
+Excluded species: Zoogloea oleivorans	0.9494	0.009332

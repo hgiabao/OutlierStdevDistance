@@ -14,17 +14,16 @@ public class Main {
         File folder = new File(inputDirPath);
         File[] FilesList = folder.listFiles();
 
-        List<BigDecimal> scores = new ArrayList<>();
-
         try {
             FileWriter fw = new FileWriter(outputFilePath);
             for (File file : FilesList) {
+                List<BigDecimal> scores = new ArrayList<>();
                 if (file.isFile()) {
                     FileReader fr = new FileReader(file);
                     BufferedReader br = new BufferedReader(fr);
                     String line;
 
-                    // read in each line, add similarity score to List
+                    //read in each line, add similarity score to List
                     while ((line = br.readLine()) != null) {
                         String[] columns = line.split("\t");
                         scores.add(new BigDecimal(columns[columns.length - 1]));
@@ -32,7 +31,9 @@ public class Main {
                     fr.close();
 
                     //write to output
+                    ;
                     String familyName = file.getName().substring(0, file.getName().indexOf("."));
+//                    System.out.println(familyName + "\t" +scores);
                     String str = familyName + "\t" + mean(scores) + "\t" + stdev(scores) + "\n";
                     fw.write(str);
                 }

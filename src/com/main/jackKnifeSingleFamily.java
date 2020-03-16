@@ -10,10 +10,9 @@ import java.util.List;
 public class jackKnifeSingleFamily {
 
     public static void main(String[] args) {
-        File file = new File("data/in/family_self/Pseudoalteromonadaceae.fa.out");
-        String outputFilePath = "data/out/singleFamilyJackKnife_Pseudoalteromonadaceae.txt";
+        File file = new File("data/in/family_self/Zoogloeaceae.fa.out");
+        String outputFilePath = "data/out/singleFamilyJackKnife_Zoogloeaceae.txt";
 
-        List<BigDecimal> scores = new ArrayList<>();
         List<String> speciesName = new ArrayList<>();
         List<speciesNameAndScorePair> Pair = new ArrayList<>();
 
@@ -21,6 +20,7 @@ public class jackKnifeSingleFamily {
         try {
             FileWriter fw = new FileWriter(outputFilePath);
             if (file.isFile()) {
+                List<BigDecimal> scores = new ArrayList<>();
                 FileReader fr = new FileReader(file);
                 BufferedReader br = new BufferedReader(fr);
                 String line;
@@ -39,26 +39,26 @@ public class jackKnifeSingleFamily {
                 for (int i = 0; i < scores.size(); i++) {
                     Pair.add(new speciesNameAndScorePair(speciesName.get(i), scores.get(i)));
                 }
-                List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
 
-//                for (int i = 0; i < Pair.size(); i++) {
-//                    System.out.println(Pair.get(i).getName() + "\t" + Pair.get(i).getScore());
-//                }
+                List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
 
                 //remove a species&score pair, then calculate mean & stdev
                 for (String tempName : speciesNameNoDuplicate) {
                     List<speciesNameAndScorePair> tempPair = new ArrayList<>(Pair);
 
-                    for (int j = 0; j < tempPair.size(); j++) {
+                    int j = 0;
+                    while (j < tempPair.size()) {
                         if (tempPair.get(j).getName().equals(tempName)) {
                             tempPair.remove(j);
+                            j = 0;
                         }
+                        else j++;
                     }
+
                     String str = "Excluded species: " + tempName + "\t" + mean(tempPair) + "\t" + stdev(tempPair) + "\n";
                     fw.write(str);
                 }
             }
-
             fw.close();
         } catch (IOException e) {
             e.printStackTrace();
