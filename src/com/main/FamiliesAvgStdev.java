@@ -8,7 +8,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 
 //Output file syntax: <excluded species> <avg_rest_of_cluster> <stdev_rest_of_cluster> <avg_excluded_species> <#_of_stdev_away>
-public class ShotgunSingleFamily {
+public class FamiliesAvgStdev {
 
     private String str;
 
