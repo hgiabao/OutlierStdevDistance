@@ -19,7 +19,6 @@ public class ShotgunSingleFamily {
         List<String> speciesName = new ArrayList<>();
         List<speciesNameAndScorePair> Pair = new ArrayList<>();
 
-
         try {
             FileWriter fw = new FileWriter(outputFilePath);
             if (file.isFile()) {
@@ -34,8 +33,6 @@ public class ShotgunSingleFamily {
                     scores.add(new BigDecimal(columns[columns.length - 1]));
                 }
                 fr.close();
-//                System.out.println(speciesName);
-//                System.out.println(scores);
 
                 //pair species and scores together
                 for (int i = 0; i < scores.size(); i++) {
