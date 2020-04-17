@@ -7,14 +7,14 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-//Output file syntax: <excluded species> <avg_rest_of_cluster> <stdev_rest_of_cluster> <avg_excluded_species> <#_of_stdev_away>
+//Output file syntax: <excluded_species> <avg_excluded_species> <avg_rest_of_family>  <stdev_rest_of_family> <#_of_stdev_away>
 public class ShotgunSingleFamily {
 
     private String str;
 
     public static void main(String[] args) {
-        File file = new File("data/in/family_self/Chromobacteriaceae.fa.out");
-        String outputFilePath = "data/out/Chromobacteriaceae.txt";
+        File file = new File("data/in/family_self/Enterobacteriaceae.fa.out");
+        String outputFilePath = "data/out/Enterobacteriaceae.txt";
 
         List<String> speciesName = new ArrayList<>();
         List<speciesNameAndScorePair> Pair = new ArrayList<>();
