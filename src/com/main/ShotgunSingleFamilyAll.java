@@ -13,67 +13,68 @@ public class ShotgunSingleFamilyAll {
     private String str;
 
     public static void main(String[] args) {
-        String inputDirPath = "data/in/family_self/";
-        String outputFilePath = "data/out/family/";
+        String inputDirPath = "data/in/genus_align/";
+        String outputFilePath = "data/out/genus/";
         File folder = new File(inputDirPath);
         File[] FilesList = folder.listFiles();
 
         try {
             for (File file : FilesList) {
-                List<String> speciesName = new ArrayList<>();
-                List<speciesNameAndScorePair> Pair = new ArrayList<>();
-                String fileName = file.getName().substring(0, file.getName().indexOf("."));
-                FileWriter fw = new FileWriter(outputFilePath + fileName + ".csv");
-                if (file.isFile()) {
-                    List<BigDecimal> scores = new ArrayList<>();
-                    FileReader fr = new FileReader(file);
-                    BufferedReader br = new BufferedReader(fr);
-                    String line;
+                if (getFileExtension(file).equals(".out")) {
+                    List<String> speciesName = new ArrayList<>();
+                    List<speciesNameAndScorePair> Pair = new ArrayList<>();
+                    String fileName = file.getName().substring(0, file.getName().indexOf("."));
+                    FileWriter fw = new FileWriter(outputFilePath + fileName + ".csv");
+                    if (file.isFile()) {
+                        List<BigDecimal> scores = new ArrayList<>();
+                        FileReader fr = new FileReader(file);
+                        BufferedReader br = new BufferedReader(fr);
+                        String line;
 
-                    while ((line = br.readLine()) != null) {
-                        String[] columns = line.split("\t");
-                        speciesName.add(columns[4]);
-                        scores.add(new BigDecimal(columns[columns.length - 1]));
-                    }
-                    fr.close();
+                        while ((line = br.readLine()) != null) {
+                            String[] columns = line.split("\t");
+                            speciesName.add(columns[4]);
+                            scores.add(new BigDecimal(columns[columns.length - 1]));
+                        }
+                        fr.close();
 
-                    //pair species and scores together
-                    for (int i = 0; i < scores.size(); i++) {
-                        Pair.add(new speciesNameAndScorePair(speciesName.get(i), scores.get(i)));
-                    }
-
-                    List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
-
-                    //Separet potential oulier, then calculate mean & stdev
-                    for (String Species : speciesNameNoDuplicate) {
-                        //Separate potential outlier and rest of cluster into 2 lists
-                        List<speciesNameAndScorePair> tempList = new ArrayList<>();
-                        List<speciesNameAndScorePair> tempListExcluded = new ArrayList<>();
-                        int j = 0;
-                        while (j < Pair.size()) {
-                            if (Pair.get(j).getName().equals(Species)) {
-                                tempListExcluded.add(Pair.get(j));
-                            } else tempList.add(Pair.get(j));
-                            j++;
+                        //pair species and scores together
+                        for (int i = 0; i < scores.size(); i++) {
+                            Pair.add(new speciesNameAndScorePair(speciesName.get(i), scores.get(i)));
                         }
 
-                        //Get avg similarity for rest of cluster
-                        List<BigDecimal> othersAvgs = new ArrayList<>();
-                        for (String s : speciesNameNoDuplicate) {
-                            List<speciesNameAndScorePair> tempList1 = new ArrayList<>();
-                            int k = 0;
-                            while (k < tempList.size()) {
-                                if (tempList.get(k).getName().equals(s)) {
-                                    tempList1.add(tempList.get(k));
+                        List<String> speciesNameNoDuplicate = removeDuplicateInList(speciesName);
+
+                        //Separet potential oulier, then calculate mean & stdev
+                        for (String Species : speciesNameNoDuplicate) {
+                            //Separate potential outlier and rest of cluster into 2 lists
+                            List<speciesNameAndScorePair> tempList = new ArrayList<>();
+                            List<speciesNameAndScorePair> tempListExcluded = new ArrayList<>();
+                            int j = 0;
+                            while (j < Pair.size()) {
+                                if (Pair.get(j).getName().equals(Species)) {
+                                    tempListExcluded.add(Pair.get(j));
+                                } else tempList.add(Pair.get(j));
+                                j++;
+                            }
+
+                            //Get avg similarity for rest of cluster
+                            List<BigDecimal> othersAvgs = new ArrayList<>();
+                            for (String s : speciesNameNoDuplicate) {
+                                List<speciesNameAndScorePair> tempList1 = new ArrayList<>();
+                                int k = 0;
+                                while (k < tempList.size()) {
+                                    if (tempList.get(k).getName().equals(s)) {
+                                        tempList1.add(tempList.get(k));
+                                    }
+                                    k++;
                                 }
-                                k++;
-                            }
 
-                            if (tempList1.size() > 0) {
-                                BigDecimal speciesAvg = meanPair(tempList1, 4);
-                                othersAvgs.add(speciesAvg);
+                                if (tempList1.size() > 0) {
+                                    BigDecimal speciesAvg = meanPair(tempList1, 4);
+                                    othersAvgs.add(speciesAvg);
+                                }
                             }
-                        }
 
 /*                        BigDecimal speciesAvg = meanPair(tempListExcluded, 4);
                         BigDecimal othersAvg = mean(othersAvgs, 4);
@@ -87,46 +88,47 @@ public class ShotgunSingleFamilyAll {
                             str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + numOfStdevAway + "\n";
                         }*/
 
-                        BigDecimal speciesAvg;
-                        BigDecimal othersAvg = null;
-                        BigDecimal othersStdev = null;
-                        BigDecimal numOfStdevAway = null;
-                        int a = 1, b = 1;
-                        String str = null;
+                            BigDecimal speciesAvg;
+                            BigDecimal othersAvg = null;
+                            BigDecimal othersStdev = null;
+                            BigDecimal numOfStdevAway = null;
+                            int a = 1, b = 1;
+                            String str = null;
 
-                        speciesAvg = meanPair(tempListExcluded, 4);
-                        if (othersAvgs.size() == 0) {
-                            a = 0;
-                        } else {
-                            othersAvg = mean(othersAvgs, 4);
-                            othersStdev = stdev(othersAvgs, 4);
-                            if (othersStdev.compareTo(BigDecimal.ZERO) == 0) {
-                                b = 0;
+                            speciesAvg = meanPair(tempListExcluded, 4);
+                            if (othersAvgs.size() == 0) {
+                                a = 0;
                             } else {
-                                numOfStdevAway = (speciesAvg.subtract(othersAvg)).abs().divide(othersStdev, new MathContext(4));
-                            }
-                        }
-
-                        switch (a) {
-                            case 0:
-                                str = Species + "\t" + speciesAvg + "\t" + "#DIV/0" + "\t" + "#DIV/0" + "\t" + "#DIV/0" + "\n";
-                                break;
-                            case 1:
-                                switch (b) {
-                                    case 0:
-                                        str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + "#DIV/0" + "\n";
-                                        break;
-                                    case 1:
-                                        str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + numOfStdevAway + "\n";
-                                        break;
+                                othersAvg = mean(othersAvgs, 4);
+                                othersStdev = stdev(othersAvgs, 4);
+                                if (othersStdev.compareTo(BigDecimal.ZERO) == 0) {
+                                    b = 0;
+                                } else {
+                                    numOfStdevAway = (speciesAvg.subtract(othersAvg)).abs().divide(othersStdev, new MathContext(4));
                                 }
-                                break;
-                        }
+                            }
 
-                        fw.write(str);
+                            switch (a) {
+                                case 0:
+                                    str = Species + "\t" + speciesAvg + "\t" + "#DIV/0" + "\t" + "#DIV/0" + "\t" + "#DIV/0" + "\n";
+                                    break;
+                                case 1:
+                                    switch (b) {
+                                        case 0:
+                                            str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + "#DIV/0" + "\n";
+                                            break;
+                                        case 1:
+                                            str = Species + "\t" + speciesAvg + "\t" + othersAvg + "\t" + othersStdev + "\t" + numOfStdevAway + "\n";
+                                            break;
+                                    }
+                                    break;
+                            }
+
+                            fw.write(str);
+                        }
                     }
+                    fw.close();
                 }
-                fw.close();
             }
 
         } catch (IOException e) {
@@ -190,4 +192,16 @@ public class ShotgunSingleFamilyAll {
 
         return listWithoutDuplicates;
     }
+
+
+    public static String getFileExtension(File file) {
+        String name = file.getName();
+        int lastIndexOf = name.lastIndexOf(".");
+        if (lastIndexOf == -1) {
+            return ""; // empty extension
+        }
+        return name.substring(lastIndexOf);
+    }
+
+
 }
