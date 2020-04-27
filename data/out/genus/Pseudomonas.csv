@@ -1,6 +1,6 @@
 Pseudomonas geniculata	0.8172	0.9341	0.02811	4.159
 Pseudomonas azotifigens	0.9196	0.9336	0.02941	0.4760
-Pseudomonas sagittaria	0.9253	0.9335	0.02942	0.2787
+Pseudomonas sagittaria	0.9253	0.9335	0.02943	0.2786
 Pseudomonas koreensis	0.9509	0.9334	0.02940	0.5952
 Pseudomonas rhizosphaerae	0.9444	0.9334	0.02942	0.3739
 Pseudomonas endophytica	0.9431	0.9334	0.02942	0.3297
@@ -86,14 +86,14 @@ Pseudomonas weihenstephanensis	0.9446	0.9334	0.02942	0.3807
 Pseudomonas oceani	0.9134	0.9336	0.02939	0.6873
 Pseudomonas chengduensis	0.9470	0.9334	0.02941	0.4624
 Pseudomonas monteilii	0.9513	0.9334	0.02940	0.6088
-Pseudomonas vranovensis	0.9417	0.9334	0.02942	0.2821
+Pseudomonas vranovensis	0.9417	0.9334	0.02943	0.2820
 Pseudomonas fluorescens	0.9427	0.9334	0.02942	0.3161
 Pseudomonas mohnii	0.9542	0.9334	0.02939	0.7077
-Pseudomonas flexibilis	0.9251	0.9335	0.02942	0.2855
+Pseudomonas flexibilis	0.9250	0.9335	0.02942	0.2889
 Pseudomonas asplenii	0.9481	0.9334	0.02941	0.4998
 Pseudomonas linyingensis	0.9269	0.9335	0.02943	0.2243
 Pseudomonas antarctica	0.9477	0.9334	0.02941	0.4862
-Pseudomonas zeshuii	0.9253	0.9335	0.02942	0.2787
+Pseudomonas zeshuii	0.9253	0.9335	0.02943	0.2786
 Pseudomonas frederiksbergensis	0.9353	0.9335	0.02943	0.06116
 Pseudomonas punonensis	0.9437	0.9334	0.02942	0.3501
 Pseudomonas putida	0.9451	0.9334	0.02942	0.3977
@@ -151,8 +151,8 @@ Pseudomonas lundensis	0.9420	0.9334	0.02942	0.2923
 Pseudomonas tremae	0.9542	0.9334	0.02939	0.7077
 Pseudomonas delhiensis	0.9179	0.9336	0.02941	0.5338
 Pseudomonas jessenii	0.9527	0.9334	0.02940	0.6565
-Pseudomonas cichorii	0.9358	0.9335	0.02943	0.07815
-Pseudomonas peli	0.9333	0.9335	0.02943	0.006796
+Pseudomonas cichorii	0.9357	0.9335	0.02943	0.07475
+Pseudomonas peli	0.9332	0.9335	0.02943	0.01019
 Pseudomonas congelans	0.9528	0.9334	0.02940	0.6599
 Pseudomonas poae	0.9501	0.9334	0.02941	0.5678
 Pseudomonas viridiflava	0.9340	0.9335	0.02943	0.01699

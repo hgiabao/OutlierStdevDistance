@@ -110,4 +110,5 @@ hs_err_pid*
 .Trash-*
 
 # Project specific stuffs
+data/in
 data/out/Excel

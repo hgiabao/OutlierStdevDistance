@@ -30,9 +30,9 @@ Microbacterium hydrothermale	0.9387	0.9422	0.01138	0.3076
 Microbacterium halimionae	0.9427	0.9422	0.01138	0.04394
 Microbacterium terricola	0.9500	0.9421	0.01136	0.6954
 Microbacterium liquefaciens	0.9493	0.9421	0.01136	0.6338
-Microbacterium saccharophilum	0.9501	0.9421	0.01136	0.7042
+Microbacterium saccharophilum	0.9501	0.9421	0.01135	0.7048
 Microbacterium oxydans	0.9507	0.9421	0.01135	0.7577
-Microbacterium marinum	0.9483	0.9421	0.01137	0.5453
+Microbacterium marinum	0.9482	0.9421	0.01137	0.5365
 Microbacterium jejuense	0.9415	0.9422	0.01138	0.06151
 Microbacterium gilvum	0.9400	0.9422	0.01138	0.1933
 Microbacterium kribbense	0.9231	0.9424	0.01122	1.720
@@ -67,7 +67,7 @@ Microbacterium sorbitolivorans	0.9268	0.9423	0.01128	1.374
 Microbacterium marinilacus	0.9424	0.9422	0.01138	0.01757
 Microbacterium lemovicicum	0.9487	0.9421	0.01136	0.5810
 Microbacterium aerolatum	0.9535	0.9421	0.01133	1.006
-Microbacterium schleiferi	0.9459	0.9422	0.01138	0.3251
+Microbacterium schleiferi	0.9459	0.9421	0.01138	0.3339
 Microbacterium flavescens	0.9449	0.9422	0.01138	0.2373
 Microbacterium mitrae	0.9429	0.9422	0.01138	0.06151
 Microbacterium insulae	0.9460	0.9421	0.01138	0.3427
@@ -84,7 +84,7 @@ Microbacterium oryzae	0.9380	0.9422	0.01137	0.3694
 Microbacterium faecale	0.9124	0.9425	0.01099	2.739
 Microbacterium aurum	0.9389	0.9422	0.01138	0.2900
 Microbacterium ginsengiterrae	0.9471	0.9421	0.01137	0.4398
-Microbacterium humi	0.9158	0.9424	0.01108	2.401
+Microbacterium humi	0.9158	0.9424	0.01107	2.403
 Microbacterium invictum	0.9406	0.9422	0.01138	0.1406
 Microbacterium barkeri	0.9379	0.9422	0.01137	0.3782
 Microbacterium sediminis	0.9386	0.9422	0.01138	0.3163

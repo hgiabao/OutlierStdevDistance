@@ -5,10 +5,10 @@ Streptomyces cinereospinus	0.9521	0.9455	0.01443	0.4574
 Streptomyces filamentosus	0.9464	0.9456	0.01443	0.05544
 Streptomyces vinaceusdrappus	0.9479	0.9456	0.01443	0.1594
 Streptomyces yeochonensis	0.9408	0.9456	0.01443	0.3326
-Streptomyces marinus	0.9358	0.9456	0.01443	0.6791
+Streptomyces marinus	0.9358	0.9456	0.01442	0.6796
 Streptomyces chumphonensis	0.9438	0.9456	0.01443	0.1247
-Streptomyces alkalithermotolerans	0.9058	0.9456	0.01435	2.774
-Streptomyces ziwulingensis	0.9506	0.9456	0.01443	0.3465
+Streptomyces alkalithermotolerans	0.9058	0.9456	0.01434	2.775
+Streptomyces ziwulingensis	0.9506	0.9455	0.01443	0.3534
 Streptomyces purpureus	0.9320	0.9456	0.01442	0.9431
 Streptomyces pratens	0.9381	0.9456	0.01443	0.5198
 Streptomyces violens	0.9458	0.9456	0.01443	0.01386
@@ -28,10 +28,10 @@ Streptomyces longispororuber	0.9521	0.9455	0.01443	0.4574
 Streptomyces morookaense	0.9524	0.9455	0.01443	0.4782
 Streptomyces flaveolus	0.9528	0.9455	0.01443	0.5059
 Streptomyces narbonensis	0.9458	0.9456	0.01443	0.01386
-Streptomyces coelescens	0.9551	0.9455	0.01443	0.6653
+Streptomyces coelescens	0.9551	0.9455	0.01442	0.6657
 Streptomyces capillispiralis	0.9526	0.9455	0.01443	0.4920
 Streptomyces bikiniensis	0.9496	0.9456	0.01443	0.2772
-Streptomyces vastus	0.9288	0.9456	0.01442	1.165
+Streptomyces vastus	0.9288	0.9456	0.01441	1.166
 Streptomyces thermogriseus	0.9338	0.9456	0.01442	0.8183
 Streptomyces cinnamonensis	0.9523	0.9455	0.01443	0.4712
 Streptomyces clavifer	0.9490	0.9456	0.01443	0.2356
@@ -49,8 +49,8 @@ Streptomyces albiflavescens	0.9483	0.9456	0.01443	0.1871
 Streptomyces abietis	0.9411	0.9456	0.01443	0.3119
 Streptomyces fuscichromogenes	0.9500	0.9456	0.01443	0.3049
 Streptomyces anthocyanicus	0.9543	0.9455	0.01443	0.6098
-Streptomyces chattanoogensis	0.9508	0.9456	0.01443	0.3604
-Streptomyces lilacinus	0.9553	0.9455	0.01443	0.6791
+Streptomyces chattanoogensis	0.9508	0.9455	0.01443	0.3673
+Streptomyces lilacinus	0.9553	0.9455	0.01442	0.6796
 Streptomyces paucisporeus	0.9419	0.9456	0.01443	0.2564
 Streptomyces aculeolatus	0.9380	0.9456	0.01443	0.5267
 Streptomyces cyaneofuscatus	0.9519	0.9455	0.01443	0.4435
@@ -64,7 +64,7 @@ Streptomyces prasinopilosus	0.9282	0.9456	0.01441	1.207
 Streptomyces bryophytorum	0.9444	0.9456	0.01443	0.08316
 Streptomyces yogyakartensis	0.9495	0.9456	0.01443	0.2703
 Streptomyces bellus	0.9522	0.9455	0.01443	0.4643
-Streptomyces herbaceus	0.9355	0.9456	0.01443	0.6999
+Streptomyces herbaceus	0.9355	0.9456	0.01442	0.7004
 Streptomyces staurosporininus	0.9397	0.9456	0.01443	0.4089
 Streptomyces thermoalcalitolerans	0.9368	0.9456	0.01443	0.6098
 Streptomyces drozdowiczii	0.9517	0.9455	0.01443	0.4297
@@ -87,7 +87,7 @@ Streptomyces kasugaensis	0.9526	0.9455	0.01443	0.4920
 Streptomyces minutiscleroticus	0.9524	0.9455	0.01443	0.4782
 Streptomyces albidochromogenes	0.9520	0.9455	0.01443	0.4505
 Streptomyces andamanensis	0.9526	0.9455	0.01443	0.4920
-Streptomyces leeuwenhoekii	0.9557	0.9455	0.01443	0.7069
+Streptomyces leeuwenhoekii	0.9557	0.9455	0.01442	0.7074
 Streptomyces griseiniger	0.9442	0.9456	0.01443	0.09702
 Streptomyces yatensis	0.9491	0.9456	0.01443	0.2426
 Streptomyces coeruleofuscus	0.9509	0.9455	0.01443	0.3742
@@ -119,7 +119,7 @@ Streptomyces ramulosus	0.9546	0.9455	0.01443	0.6306
 Streptomyces lavendulae subsp. grasserius	0.9261	0.9456	0.01441	1.353
 Streptomyces parvus	0.9537	0.9455	0.01443	0.5683
 Streptomyces mutomycini	0.9462	0.9456	0.01443	0.04158
-Streptomyces mangrovi	0.9351	0.9456	0.01443	0.7277
+Streptomyces mangrovi	0.9351	0.9456	0.01442	0.7282
 Streptomyces atriruber	0.9470	0.9456	0.01443	0.09702
 Streptomyces rimosus subsp. rimosus	0.9534	0.9455	0.01443	0.5475
 Streptomyces mordarskii	0.9448	0.9456	0.01443	0.05544
@@ -130,7 +130,7 @@ Streptomyces rubrisoli	0.9426	0.9456	0.01443	0.2079
 Streptomyces osmaniensis	0.9385	0.9456	0.01443	0.4920
 Streptomyces viridodiastaticus	0.9514	0.9455	0.01443	0.4089
 Streptomyces corchorusii	0.9532	0.9455	0.01443	0.5336
-Streptomyces lopnurensis	0.9355	0.9456	0.01443	0.6999
+Streptomyces lopnurensis	0.9355	0.9456	0.01442	0.7004
 Streptomyces gulbargensis	0.9484	0.9456	0.01443	0.1940
 Streptomyces polygonati	0.9390	0.9456	0.01443	0.4574
 Streptomyces sedi	0.9009	0.9456	0.01432	3.122
@@ -146,10 +146,10 @@ Streptomyces violaceus	0.9526	0.9455	0.01443	0.4920
 Streptomyces phytohabitans	0.9270	0.9456	0.01441	1.291
 Streptomyces niveiscabiei	0.9496	0.9456	0.01443	0.2772
 Streptomyces glomeratus	0.9498	0.9456	0.01443	0.2911
-Streptomyces yanii	0.9447	0.9456	0.01443	0.06237
+Streptomyces yanii	0.9448	0.9456	0.01443	0.05544
 Streptomyces anandii	0.9514	0.9455	0.01443	0.4089
 Streptomyces artemisiae	0.9236	0.9456	0.01440	1.528
-Streptomyces chryseus	0.9535	0.9455	0.01443	0.5544
+Streptomyces chryseus	0.9534	0.9455	0.01443	0.5475
 Streptomyces aidingensis	0.9205	0.9456	0.01440	1.743
 Streptomyces toxytricini	0.9460	0.9456	0.01443	0.02772
 Streptomyces indigoferus	0.9323	0.9456	0.01442	0.9223
@@ -184,7 +184,7 @@ Streptomyces bullii	0.9509	0.9455	0.01443	0.3742
 Streptomyces formicae	0.9491	0.9456	0.01443	0.2426
 Streptomyces cinereorectus	0.9514	0.9455	0.01443	0.4089
 Streptomyces levis	0.9519	0.9455	0.01443	0.4435
-Streptomyces atacamensis	0.9353	0.9456	0.01443	0.7138
+Streptomyces atacamensis	0.9353	0.9456	0.01442	0.7143
 Streptomyces albosporeus subsp. labilomyceticus	0.9534	0.9455	0.01443	0.5475
 Streptomyces cinnamoneus	0.9542	0.9455	0.01443	0.6029
 Streptomyces brasiliensis	0.9492	0.9456	0.01443	0.2495
@@ -195,7 +195,7 @@ Streptomyces collinus	0.9523	0.9455	0.01443	0.4712
 Streptomyces shaanxiensis	0.9467	0.9456	0.01443	0.07623
 Streptomyces cinereoruber subsp. fructofermentans	0.9486	0.9456	0.01443	0.2079
 Streptomyces pharmamarensis	0.9101	0.9456	0.01436	2.472
-Streptomyces tunisiensis	0.9360	0.9456	0.01443	0.6653
+Streptomyces tunisiensis	0.9360	0.9456	0.01442	0.6657
 Streptomyces fulvissimus	0.9538	0.9455	0.01443	0.5752
 Streptomyces pilosus	0.9533	0.9455	0.01443	0.5405
 Streptomyces mayteni	0.9182	0.9456	0.01439	1.904
@@ -214,14 +214,14 @@ Streptomyces albulus	0.9523	0.9455	0.01443	0.4712
 Streptomyces bohaiensis	0.9408	0.9456	0.01443	0.3326
 Streptomyces umbrinus	0.9466	0.9456	0.01443	0.06930
 Streptomyces zhihengii	0.9498	0.9456	0.01443	0.2911
-Streptomyces alni	0.9422	0.9456	0.01443	0.2356
+Streptomyces alni	0.9421	0.9456	0.01443	0.2426
 Streptomyces synnematoformans	0.9302	0.9456	0.01442	1.068
 Streptomyces cheonanensis	0.9208	0.9456	0.01440	1.722
-Streptomyces noboritoensis	0.9531	0.9455	0.01443	0.5267
+Streptomyces noboritoensis	0.9530	0.9455	0.01443	0.5198
 Streptomyces nanhaiensis	0.9304	0.9456	0.01442	1.054
 Streptomyces catenulae	0.9520	0.9455	0.01443	0.4505
 Streptomyces glauciniger	0.9416	0.9456	0.01443	0.2772
-Streptomyces griseorubiginosus	0.9508	0.9456	0.01443	0.3604
+Streptomyces griseorubiginosus	0.9508	0.9455	0.01443	0.3673
 Streptomyces albus subsp. albus	0.9411	0.9456	0.01443	0.3119
 Streptomyces palmae	0.9525	0.9455	0.01443	0.4851
 Streptomyces aureorectus	0.9494	0.9456	0.01443	0.2633
@@ -230,7 +230,7 @@ Streptomyces ghanaensis	0.9523	0.9455	0.01443	0.4712
 Streptomyces phaeopurpureus	0.9494	0.9456	0.01443	0.2633
 Streptomyces naganishii	0.9521	0.9455	0.01443	0.4574
 Streptomyces olivochromogenes	0.9494	0.9456	0.01443	0.2633
-Streptomyces rimosus subsp. paromomycinus	0.9506	0.9456	0.01443	0.3465
+Streptomyces rimosus subsp. paromomycinus	0.9506	0.9455	0.01443	0.3534
 Streptomyces sporoclivatus	0.9489	0.9456	0.01443	0.2287
 Streptomyces xiamenensis	0.9251	0.9456	0.01441	1.423
 Streptomyces lateritius	0.9516	0.9455	0.01443	0.4227
@@ -259,13 +259,13 @@ Streptomyces krungchingensis	0.9502	0.9456	0.01443	0.3188
 Streptomyces glaucescens	0.9513	0.9455	0.01443	0.4019
 Streptomyces koyangensis	0.9509	0.9455	0.01443	0.3742
 Streptomyces sanglieri	0.9545	0.9455	0.01443	0.6237
-Streptomyces candidus	0.9508	0.9456	0.01443	0.3604
+Streptomyces candidus	0.9508	0.9455	0.01443	0.3673
 Streptomyces crystallinus	0.9524	0.9455	0.01443	0.4782
 Streptomyces longisporoflavus	0.6917	0.9460	0.01036	24.55
 Streptomyces flocculus	0.9444	0.9456	0.01443	0.08316
 Streptomyces roseofulvus	0.9482	0.9456	0.01443	0.1802
 Streptomyces xinghaiensis	0.9458	0.9456	0.01443	0.01386
-Streptomyces diastatochromogenes	0.9508	0.9456	0.01443	0.3604
+Streptomyces diastatochromogenes	0.9508	0.9455	0.01443	0.3673
 Streptomyces spiralis	0.9494	0.9456	0.01443	0.2633
 Streptomyces djakartensis	0.9530	0.9455	0.01443	0.5198
 Streptomyces thermospinosisporus	0.9512	0.9455	0.01443	0.3950
@@ -279,11 +279,11 @@ Streptomyces misionensis	0.9548	0.9455	0.01443	0.6445
 Streptomyces thermocarboxydovorans	0.9510	0.9455	0.01443	0.3812
 Streptomyces yangpuensis	0.9486	0.9456	0.01443	0.2079
 Streptomyces flavidovirens	0.9529	0.9455	0.01443	0.5128
-Streptomyces racemochromogenes	0.9508	0.9456	0.01443	0.3604
+Streptomyces racemochromogenes	0.9508	0.9455	0.01443	0.3673
 Streptomyces luteosporeus	0.9488	0.9456	0.01443	0.2218
 Streptomyces seymenliensis	0.9326	0.9456	0.01442	0.9015
 Streptomyces axinellae	0.9348	0.9456	0.01442	0.7490
-Streptomyces abyssalis	0.9357	0.9456	0.01443	0.6861
+Streptomyces abyssalis	0.9357	0.9456	0.01442	0.6865
 Streptomyces scabiei	0.9494	0.9456	0.01443	0.2633
 Streptomyces albaduncus	0.9521	0.9455	0.01443	0.4574
 Streptomyces gardneri	0.8603	0.9457	0.01403	6.087
@@ -304,9 +304,9 @@ Streptomyces clavuligerus	0.9500	0.9456	0.01443	0.3049
 Streptomyces africanus	0.9523	0.9455	0.01443	0.4712
 Streptomyces ambofaciens	0.9544	0.9455	0.01443	0.6168
 Streptomyces phaeoluteichromatogenes	0.9452	0.9456	0.01443	0.02772
-Streptomyces cyaneus	0.9556	0.9455	0.01443	0.6999
+Streptomyces cyaneus	0.9556	0.9455	0.01442	0.7004
 Streptomyces hygroscopicus subsp. hygroscopicus	0.9486	0.9456	0.01443	0.2079
-Streptomyces tacrolimicus	0.9508	0.9456	0.01443	0.3604
+Streptomyces tacrolimicus	0.9508	0.9455	0.01443	0.3673
 Streptomyces afghaniensis	0.9522	0.9455	0.01443	0.4643
 Streptomyces zagrosensis	0.9567	0.9455	0.01442	0.7767
 Streptomyces lincolnensis	0.9537	0.9455	0.01443	0.5683
@@ -314,11 +314,11 @@ Streptomyces costaricanus	0.9513	0.9455	0.01443	0.4019
 Streptomyces rubiginosus	0.9402	0.9456	0.01443	0.3742
 Streptomyces sparsus	0.9410	0.9456	0.01443	0.3188
 Streptomyces albolongus	0.9539	0.9455	0.01443	0.5821
-Streptomyces resistomycificus	0.9559	0.9455	0.01443	0.7207
+Streptomyces resistomycificus	0.9559	0.9455	0.01442	0.7212
 Streptomyces daliensis	0.9481	0.9456	0.01443	0.1733
 Streptomyces bungoensis	0.9548	0.9455	0.01443	0.6445
 Streptomyces malaysiensis	0.9450	0.9456	0.01443	0.04158
-Streptomyces griseorubens	0.9560	0.9455	0.01443	0.7277
+Streptomyces griseorubens	0.9560	0.9455	0.01442	0.7282
 Streptomyces yokosukanensis	0.9528	0.9455	0.01443	0.5059
 Streptomyces griseostramineus	0.9500	0.9456	0.01443	0.3049
 Streptomyces cinerochromogenes	0.9522	0.9455	0.01443	0.4643
@@ -328,9 +328,9 @@ Streptomyces aldersoniae	0.9488	0.9456	0.01443	0.2218
 Streptomyces phaeochromogenes	0.9481	0.9456	0.01443	0.1733
 Streptomyces iakyrus	0.9536	0.9455	0.01443	0.5613
 Streptomyces griseoruber	0.9539	0.9455	0.01443	0.5821
-Streptomyces lunalinharesii	0.9360	0.9456	0.01443	0.6653
+Streptomyces lunalinharesii	0.9360	0.9456	0.01442	0.6657
 Streptomyces albiaxialis	0.9459	0.9456	0.01443	0.02079
-Streptomyces klenkii	0.9082	0.9456	0.01435	2.606
+Streptomyces klenkii	0.9083	0.9456	0.01435	2.599
 Streptomyces sindenensis	0.9548	0.9455	0.01443	0.6445
 Streptomyces mauvecolor	0.9530	0.9455	0.01443	0.5198
 Streptomyces bottropensis	0.9490	0.9456	0.01443	0.2356
@@ -347,7 +347,7 @@ Streptomyces hygroscopicus subsp. glebosus	0.9543	0.9455	0.01443	0.6098
 Streptomyces lavendulae subsp. lavendulae	0.9383	0.9456	0.01443	0.5059
 Streptomyces castelarensis	0.9476	0.9456	0.01443	0.1386
 Streptomyces iconiensis	0.9454	0.9456	0.01443	0.01386
-Streptomyces mutabilis	0.9537	0.9455	0.01443	0.5683
+Streptomyces mutabilis	0.9536	0.9455	0.01443	0.5613
 Streptomyces celluloflavus	0.9532	0.9455	0.01443	0.5336
 Streptomyces glaucus	0.9496	0.9456	0.01443	0.2772
 Streptomyces spongiae	0.9492	0.9456	0.01443	0.2495
@@ -364,9 +364,9 @@ Streptomyces hebeiensis	0.9497	0.9456	0.01443	0.2841
 Streptomyces daghestanicus	0.9514	0.9455	0.01443	0.4089
 Streptomyces coacervatus	0.9548	0.9455	0.01443	0.6445
 Streptomyces sulfonofaciens	0.9424	0.9456	0.01443	0.2218
-Streptomyces rubiginosohelvolus	0.9559	0.9455	0.01443	0.7207
+Streptomyces rubiginosohelvolus	0.9559	0.9455	0.01442	0.7212
 Streptomyces mobaraensis	0.9532	0.9455	0.01443	0.5336
-Streptomyces fildesensis	0.9360	0.9456	0.01443	0.6653
+Streptomyces fildesensis	0.9360	0.9456	0.01442	0.6657
 Streptomyces megasporus	0.9153	0.9456	0.01438	2.107
 Streptomyces flavogriseus	0.9547	0.9455	0.01443	0.6376
 Streptomyces roseiscleroticus	0.9498	0.9456	0.01443	0.2911
@@ -374,29 +374,29 @@ Streptomyces varsoviensis	0.9543	0.9455	0.01443	0.6098
 Streptomyces olivoverticillatus	0.9524	0.9455	0.01443	0.4782
 Streptomyces avermitilis	0.9534	0.9455	0.01443	0.5475
 Streptomyces hygroscopicus subsp. ossamyceticus	0.9479	0.9456	0.01443	0.1594
-Streptomyces neyagawaensis	0.9506	0.9456	0.01443	0.3465
+Streptomyces neyagawaensis	0.9506	0.9455	0.01443	0.3534
 Streptomyces calidiresistens	0.9400	0.9456	0.01443	0.3881
 Streptomyces tuirus	0.9533	0.9455	0.01443	0.5405
 Streptomyces demainii	0.9480	0.9456	0.01443	0.1663
-Streptomyces monomycini	0.9507	0.9456	0.01443	0.3534
+Streptomyces monomycini	0.9507	0.9455	0.01443	0.3604
 Streptomyces zhaozhouensis	0.9148	0.9456	0.01438	2.142
 Streptomyces guanduensis	0.9361	0.9456	0.01443	0.6584
 Streptomyces rapamycinicus	0.9463	0.9456	0.01443	0.04851
 Streptomyces finlayi	0.9505	0.9456	0.01443	0.3396
 Streptomyces omiyaensis	0.9500	0.9456	0.01443	0.3049
 Streptomyces gramineus	0.9404	0.9456	0.01443	0.3604
-Streptomyces alfalfae	0.9506	0.9456	0.01443	0.3465
+Streptomyces alfalfae	0.9506	0.9455	0.01443	0.3534
 Streptomyces echinatus	0.9491	0.9456	0.01443	0.2426
 Streptomyces virens	0.9513	0.9455	0.01443	0.4019
 Streptomyces violaceusniger	0.9495	0.9456	0.01443	0.2703
 Streptomyces janthinus	0.9541	0.9455	0.01443	0.5960
 Streptomyces coeruleorubidus	0.9521	0.9455	0.01443	0.4574
 Streptomyces globisporus	0.9539	0.9455	0.01443	0.5821
-Streptomyces tricolor	0.9553	0.9455	0.01443	0.6791
-Streptomyces atratus	0.9552	0.9455	0.01443	0.6722
+Streptomyces tricolor	0.9553	0.9455	0.01442	0.6796
+Streptomyces atratus	0.9552	0.9455	0.01442	0.6727
 Streptomyces cacaoi subsp. cacaoi	0.9413	0.9456	0.01443	0.2980
 Streptomyces subrutilus	0.9513	0.9455	0.01443	0.4019
-Streptomyces caeruleus	0.9556	0.9455	0.01443	0.6999
+Streptomyces caeruleus	0.9556	0.9455	0.01442	0.7004
 Streptomyces lavendulocolor	0.9430	0.9456	0.01443	0.1802
 Streptomyces olivaceoviridis	0.9545	0.9455	0.01443	0.6237
 Streptomyces cyanoalbus	0.9416	0.9456	0.01443	0.2772
@@ -404,11 +404,11 @@ Streptomyces griseomycini	0.9514	0.9455	0.01443	0.4089
 Streptomyces spectabilis	0.9544	0.9455	0.01443	0.6168
 Streptomyces thermoviolaceus subsp. thermoviolaceus	0.9490	0.9456	0.01443	0.2356
 Streptomyces verrucosisporus	0.9330	0.9456	0.01442	0.8738
-Streptomyces albiflaviniger	0.9358	0.9456	0.01443	0.6791
+Streptomyces albiflaviniger	0.9358	0.9456	0.01442	0.6796
 Streptomyces bobili	0.9572	0.9455	0.01442	0.8114
 Streptomyces tendae	0.9571	0.9455	0.01442	0.8044
 Streptomyces lomondensis	0.9542	0.9455	0.01443	0.6029
-Streptomyces matensis	0.9560	0.9455	0.01443	0.7277
+Streptomyces matensis	0.9560	0.9455	0.01442	0.7282
 Streptomyces goshikiensis	0.9519	0.9455	0.01443	0.4435
 Streptomyces rhizophilus	0.9491	0.9456	0.01443	0.2426
 Streptomyces aureocirculatus	0.9547	0.9455	0.01443	0.6376
@@ -420,7 +420,7 @@ Streptomyces pharetrae	0.9388	0.9456	0.01443	0.4712
 Streptomyces caniferus	0.9523	0.9455	0.01443	0.4712
 Streptomyces thinghirensis	0.9513	0.9455	0.01443	0.4019
 Streptomyces recifensis	0.9501	0.9456	0.01443	0.3119
-Streptomyces graminearus	0.9508	0.9456	0.01443	0.3604
+Streptomyces graminearus	0.9508	0.9455	0.01443	0.3673
 Streptomyces mirabilis	0.9537	0.9455	0.01443	0.5683
 Streptomyces regensis	0.9493	0.9456	0.01443	0.2564
 Streptomyces armeniacus	0.9307	0.9456	0.01442	1.033
@@ -437,13 +437,13 @@ Streptomyces murinus	0.9512	0.9455	0.01443	0.3950
 Streptomyces smyrnaeus	0.9422	0.9456	0.01443	0.2356
 Streptomyces cangkringensis	0.9399	0.9456	0.01443	0.3950
 Streptomyces hypolithicus	0.9470	0.9456	0.01443	0.09702
-Streptomyces canalis	0.9238	0.9456	0.01441	1.513
+Streptomyces canalis	0.9238	0.9456	0.01440	1.514
 Streptomyces canarius	0.9537	0.9455	0.01443	0.5683
 Streptomyces exfoliatus	0.9527	0.9455	0.01443	0.4990
 Streptomyces rochei	0.9519	0.9455	0.01443	0.4435
-Streptomyces griseoflavus	0.9558	0.9455	0.01443	0.7138
+Streptomyces griseoflavus	0.9558	0.9455	0.01442	0.7143
 Streptomyces aureus	0.9486	0.9456	0.01443	0.2079
-Streptomyces rishiriensis	0.9519	0.9455	0.01443	0.4435
+Streptomyces rishiriensis	0.9518	0.9455	0.01443	0.4366
 Streptomyces phaeoluteigriseus	0.9483	0.9456	0.01443	0.1871
 Streptomyces coeruleoprunus	0.9540	0.9455	0.01443	0.5891
 Streptomyces chrestomyceticus	0.9505	0.9456	0.01443	0.3396
@@ -456,7 +456,7 @@ Streptomyces phaeofaciens	0.9517	0.9455	0.01443	0.4297
 Streptomyces hyaluromycini	0.9460	0.9456	0.01443	0.02772
 Streptomyces coerulescens	0.9495	0.9456	0.01443	0.2703
 Streptomyces griseochromogenes	0.9562	0.9455	0.01442	0.7420
-Streptomyces rhizosphaericus	0.9506	0.9456	0.01443	0.3465
+Streptomyces rhizosphaericus	0.9506	0.9455	0.01443	0.3534
 Streptomyces lunaelactis	0.9549	0.9455	0.01443	0.6514
 Streptomyces fenghuangensis	0.9321	0.9456	0.01442	0.9362
 Streptomyces vitaminophilus	0.9124	0.9456	0.01437	2.310
@@ -464,14 +464,14 @@ Streptomyces oryzae	0.9301	0.9456	0.01442	1.075
 Streptomyces diastaticus subsp. diastaticus	0.9550	0.9455	0.01443	0.6584
 Streptomyces kebangsaanensis	0.9451	0.9456	0.01443	0.03465
 Streptomyces cuspidosporus	0.9512	0.9455	0.01443	0.3950
-Streptomyces chlorus	0.9359	0.9456	0.01443	0.6722
+Streptomyces chlorus	0.9359	0.9456	0.01442	0.6727
 Streptomyces indoligenes	0.9443	0.9456	0.01443	0.09009
 Streptomyces hydrogenans	0.9518	0.9455	0.01443	0.4366
 Streptomyces arenae	0.9488	0.9456	0.01443	0.2218
 Streptomyces aurantiogriseus	0.9539	0.9455	0.01443	0.5821
-Streptomyces spinoverrucosus	0.9532	0.9455	0.01443	0.5336
+Streptomyces spinoverrucosus	0.9533	0.9455	0.01443	0.5405
 Streptomyces labedae	0.9541	0.9455	0.01443	0.5960
-Streptomyces alanosinicus	0.9559	0.9455	0.01443	0.7207
+Streptomyces alanosinicus	0.9559	0.9455	0.01442	0.7212
 Streptomyces flavoviridis	0.9544	0.9455	0.01443	0.6168
 Streptomyces similanensis	0.9515	0.9455	0.01443	0.4158
 Streptomyces enissocaesilis	0.9534	0.9455	0.01443	0.5475
@@ -481,7 +481,7 @@ Streptomyces wedmorensis	0.9505	0.9456	0.01443	0.3396
 Streptomyces fumanus	0.9522	0.9455	0.01443	0.4643
 Streptomyces diastaticus subsp. ardesiacus	0.9515	0.9455	0.01443	0.4158
 Streptomyces curacoi	0.9572	0.9455	0.01442	0.8114
-Streptomyces marokkonensis	0.9551	0.9455	0.01443	0.6653
+Streptomyces marokkonensis	0.9551	0.9455	0.01442	0.6657
 Streptomyces mexicanus	0.9519	0.9455	0.01443	0.4435
 Streptomyces cellostaticus	0.9528	0.9455	0.01443	0.5059
 Streptomyces venezuelae	0.9538	0.9455	0.01443	0.5752
@@ -498,19 +498,19 @@ Streptomyces luteus	0.9490	0.9456	0.01443	0.2356
 Streptomyces adustus	0.9539	0.9455	0.01443	0.5821
 Streptomyces gancidicus	0.9519	0.9455	0.01443	0.4435
 Streptomyces sioyaensis	0.9533	0.9455	0.01443	0.5405
-Streptomyces luteireticuli	0.9506	0.9456	0.01443	0.3465
+Streptomyces luteireticuli	0.9506	0.9455	0.01443	0.3534
 Streptomyces showdoensis	0.9538	0.9455	0.01443	0.5752
-Streptomyces pratensis	0.9560	0.9455	0.01443	0.7277
+Streptomyces pratensis	0.9560	0.9455	0.01442	0.7282
 Streptomyces griseoluteus	0.9499	0.9456	0.01443	0.2980
-Streptomyces galilaeus	0.9560	0.9455	0.01443	0.7277
+Streptomyces galilaeus	0.9560	0.9455	0.01442	0.7282
 Streptomyces pini	0.9255	0.9456	0.01441	1.395
 Streptomyces rubidus	0.9470	0.9456	0.01443	0.09702
 Streptomyces iranensis	0.9498	0.9456	0.01443	0.2911
 Streptomyces aurantiacus	0.9463	0.9456	0.01443	0.04851
 Streptomyces indiaensis	0.9533	0.9455	0.01443	0.5405
 Streptomyces variabilis	0.9541	0.9455	0.01443	0.5960
-Streptomyces caeruleatus	0.9554	0.9455	0.01443	0.6861
-Streptomyces griseoplanus	0.9555	0.9455	0.01443	0.6930
+Streptomyces caeruleatus	0.9554	0.9455	0.01442	0.6865
+Streptomyces griseoplanus	0.9555	0.9455	0.01442	0.6935
 Streptomyces eurythermus	0.9538	0.9455	0.01443	0.5752
 Streptomyces gobitricini	0.9533	0.9455	0.01443	0.5405
 Streptomyces coelicoflavus	0.9533	0.9455	0.01443	0.5405
@@ -545,20 +545,20 @@ Streptomyces viridobrunneus	0.9537	0.9455	0.01443	0.5683
 Streptomyces abikoensis	0.9518	0.9455	0.01443	0.4366
 Streptomyces albogriseolus	0.9538	0.9455	0.01443	0.5752
 Streptomyces nogalater	0.9462	0.9456	0.01443	0.04158
-Streptomyces anulatus	0.9554	0.9455	0.01443	0.6861
-Streptomyces atrovirens	0.9506	0.9456	0.01443	0.3465
+Streptomyces anulatus	0.9554	0.9455	0.01442	0.6865
+Streptomyces atrovirens	0.9506	0.9455	0.01443	0.3534
 Streptomyces sodiiphilus	0.9417	0.9456	0.01443	0.2703
 Streptomyces viridochromogenes	0.9333	0.9456	0.01442	0.8530
 Streptomyces daqingensis	0.9416	0.9456	0.01443	0.2772
 Streptomyces hyderabadensis	0.9489	0.9456	0.01443	0.2287
 Streptomyces katrae	0.9526	0.9455	0.01443	0.4920
-Streptomyces graminisoli	0.9468	0.9456	0.01443	0.08316
+Streptomyces graminisoli	0.9469	0.9456	0.01443	0.09009
 Streptomyces canus	0.9544	0.9455	0.01443	0.6168
 Streptomyces setonii	0.9545	0.9455	0.01443	0.6237
 Streptomyces humidus	0.9538	0.9455	0.01443	0.5752
-Streptomyces pluricolorescens	0.9551	0.9455	0.01443	0.6653
-Streptomyces malachitofuscus	0.9506	0.9456	0.01443	0.3465
-Streptomyces silaceus	0.9517	0.9455	0.01443	0.4297
+Streptomyces pluricolorescens	0.9551	0.9455	0.01442	0.6657
+Streptomyces malachitofuscus	0.9506	0.9455	0.01443	0.3534
+Streptomyces silaceus	0.9516	0.9455	0.01443	0.4227
 Streptomyces chilikensis	0.9488	0.9456	0.01443	0.2218
 Streptomyces speibonae	0.9472	0.9456	0.01443	0.1109
 Streptomyces ederensis	0.9371	0.9456	0.01443	0.5891
@@ -570,13 +570,13 @@ Streptomyces michiganensis	0.9526	0.9455	0.01443	0.4920
 Streptomyces flaveus	0.9323	0.9456	0.01442	0.9223
 Streptomyces glomeroaurantiacus	0.9426	0.9456	0.01443	0.2079
 Streptomyces tanashiensis	0.9547	0.9455	0.01443	0.6376
-Streptomyces sannanensis	0.9506	0.9456	0.01443	0.3465
+Streptomyces sannanensis	0.9506	0.9455	0.01443	0.3534
 Streptomyces hiroshimensis	0.9539	0.9455	0.01443	0.5821
 Streptomyces malachitospinus	0.9477	0.9456	0.01443	0.1455
 Streptomyces longisporus	0.9477	0.9456	0.01443	0.1455
 Streptomyces graminilatus	0.9470	0.9456	0.01443	0.09702
 Streptomyces cremeus	0.9513	0.9455	0.01443	0.4019
-Streptomyces qinglanensis	0.9432	0.9456	0.01443	0.1663
+Streptomyces qinglanensis	0.9433	0.9456	0.01443	0.1594
 Streptomyces lacticiproducens	0.9444	0.9456	0.01443	0.08316
 Streptomyces ochraceiscleroticus	0.9475	0.9456	0.01443	0.1317
 Streptomyces kanamyceticus	0.9495	0.9456	0.01443	0.2703
@@ -598,7 +598,7 @@ Streptomyces herbaricolor	0.9316	0.9456	0.01442	0.9709
 Streptomyces reticuliscabiei	0.9336	0.9456	0.01442	0.8322
 Streptomyces hawaiiensis	0.9489	0.9456	0.01443	0.2287
 Streptomyces ferralitis	0.9383	0.9456	0.01443	0.5059
-Streptomyces lonarensis	0.9360	0.9456	0.01443	0.6653
+Streptomyces lonarensis	0.9360	0.9456	0.01442	0.6657
 Streptomyces inusitatus	0.9482	0.9456	0.01443	0.1802
 Streptomyces asiaticus	0.9473	0.9456	0.01443	0.1178
 Streptomyces violaceorubidus	0.9513	0.9455	0.01443	0.4019
@@ -612,8 +612,8 @@ Streptomyces kurssanovii	0.9504	0.9456	0.01443	0.3326
 Streptomyces cocklensis	0.9365	0.9456	0.01443	0.6306
 Streptomyces xishensis	0.9305	0.9456	0.01442	1.047
 Streptomyces flavotricini	0.9488	0.9456	0.01443	0.2218
-Streptomyces luridus	0.9353	0.9456	0.01443	0.7138
-Streptomyces caelestis	0.9490	0.9456	0.01443	0.2356
+Streptomyces luridus	0.9353	0.9456	0.01442	0.7143
+Streptomyces caelestis	0.9489	0.9456	0.01443	0.2287
 Streptomyces bangladeshensis	0.9448	0.9456	0.01443	0.05544
 Streptomyces heilongjiangensis	0.9477	0.9456	0.01443	0.1455
 Streptomyces prasinosporus	0.9468	0.9456	0.01443	0.08316
@@ -623,8 +623,8 @@ Streptomyces fulvorobeus	0.9497	0.9456	0.01443	0.2841
 Streptomyces poonensis	0.9420	0.9456	0.01443	0.2495
 Streptomyces halophytocola	0.9134	0.9456	0.01437	2.241
 Streptomyces griseosporeus	0.9469	0.9456	0.01443	0.09009
-Streptomyces polyantibioticus	0.9360	0.9456	0.01443	0.6653
-Streptomyces camponoticapitis	0.9529	0.9455	0.01443	0.5128
+Streptomyces polyantibioticus	0.9360	0.9456	0.01442	0.6657
+Streptomyces camponoticapitis	0.9528	0.9455	0.01443	0.5059
 Streptomyces endophyticus	0.9375	0.9456	0.01443	0.5613
 Streptomyces erringtonii	0.9318	0.9456	0.01442	0.9570
 Streptomyces viridosporus	0.9253	0.9456	0.01441	1.409
@@ -634,8 +634,8 @@ Streptomyces lavenduligriseus	0.9439	0.9456	0.01443	0.1178
 Streptomyces puniciscabiei	0.9439	0.9456	0.01443	0.1178
 Streptomyces cinereus	0.9293	0.9456	0.01442	1.130
 Streptomyces purpurascens	0.9383	0.9456	0.01443	0.5059
-Streptomyces turgidiscabies	0.9522	0.9455	0.01443	0.4643
-Streptomyces thermovulgaris	0.9260	0.9456	0.01441	1.360
+Streptomyces turgidiscabies	0.9521	0.9455	0.01443	0.4574
+Streptomyces thermovulgaris	0.9261	0.9456	0.01441	1.353
 Streptomyces durhamensis	0.9464	0.9456	0.01443	0.05544
 Streptomyces araujoniae	0.9324	0.9456	0.01442	0.9154
 Streptomyces pseudovenezuelae	0.9114	0.9456	0.01437	2.380

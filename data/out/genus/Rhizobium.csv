@@ -1,4 +1,4 @@
-Rhizobium capsici	0.9392	0.9427	0.01432	0.2444
+Rhizobium capsici	0.9392	0.9428	0.01432	0.2514
 Rhizobium jaguaris	0.9523	0.9426	0.01428	0.6793
 Rhizobium vignae	0.9426	0.9427	0.01432	0.006983
 Rhizobium puerariae	0.9146	0.9431	0.01397	2.040
@@ -10,7 +10,7 @@ Rhizobium phaseoli	0.9581	0.9425	0.01422	1.097
 Rhizobium acidisoli	0.9585	0.9425	0.01421	1.126
 Rhizobium selenitireducens	0.9370	0.9428	0.01431	0.4053
 Rhizobium paknamense	0.9399	0.9427	0.01432	0.1955
-Rhizobium sophorae	0.9577	0.9425	0.01422	1.069
+Rhizobium sophorae	0.9578	0.9425	0.01422	1.076
 Rhizobium tibeticum	0.9509	0.9426	0.01429	0.5808
 Rhizobium hainanense	0.9491	0.9426	0.01430	0.4545
 Rhizobium populi	0.9223	0.9430	0.01414	1.464
@@ -40,12 +40,12 @@ Rhizobium grahamii	0.9531	0.9426	0.01427	0.7358
 Rhizobium pakistanense	0.9401	0.9427	0.01432	0.1816
 Rhizobium halophytocola	0.9284	0.9429	0.01423	1.019
 Rhizobium aggregatum	0.9010	0.9432	0.01354	3.117
-Rhizobium smilacinae	0.9349	0.9428	0.01429	0.5528
+Rhizobium smilacinae	0.9349	0.9428	0.01430	0.5524
 Rhizobium lusitanum	0.9563	0.9425	0.01424	0.9691
 Rhizobium leguminosarum	0.9557	0.9425	0.01425	0.9263
 Rhizobium sullae	0.9578	0.9425	0.01422	1.076
 Rhizobium endolithicum	0.8998	0.9432	0.01349	3.217
-Rhizobium indigoferae	0.9541	0.9426	0.01426	0.8065
+Rhizobium indigoferae	0.9541	0.9426	0.01427	0.8059
 Rhizobium mayense	0.9577	0.9425	0.01422	1.069
 Rhizobium mongolense	0.9542	0.9426	0.01426	0.8135
 Rhizobium azibense	0.9556	0.9425	0.01425	0.9193
@@ -59,9 +59,9 @@ Rhizobium metallidurans	0.9497	0.9426	0.01430	0.4965
 Rhizobium laguerreae	0.9555	0.9425	0.01425	0.9123
 Rhizobium rhizogenes	0.9475	0.9426	0.01431	0.3424
 Rhizobium sphaerophysae	0.9251	0.9429	0.01419	1.254
-Rhizobium ecuadorense	0.9635	0.9424	0.01413	1.493
+Rhizobium ecuadorense	0.9635	0.9425	0.01413	1.486
 Rhizobium cauense	0.9458	0.9427	0.01432	0.2165
-Rhizobium yanglingense	0.9554	0.9425	0.01425	0.9053
+Rhizobium yanglingense	0.9554	0.9426	0.01425	0.8982
 Rhizobium cellulosilyticum	0.9273	0.9429	0.01422	1.097
 Rhizobium pisi	0.9526	0.9426	0.01428	0.7003
 Rhizobium lemnae	0.9182	0.9430	0.01406	1.764
@@ -75,8 +75,8 @@ Rhizobium mesosinicum	0.9477	0.9426	0.01431	0.3564
 Rhizobium calliandrae	0.9434	0.9427	0.01432	0.04888
 Rhizobium marinum	0.9288	0.9429	0.01424	0.9902
 Rhizobium azooxidifex	0.9415	0.9427	0.01432	0.08380
-Rhizobium tubonense	0.9391	0.9427	0.01432	0.2514
+Rhizobium tubonense	0.9391	0.9428	0.01432	0.2584
 Rhizobium helianthi	0.9344	0.9428	0.01429	0.5878
 Rhizobium oryzicola	0.9152	0.9430	0.01399	1.987
-Rhizobium radiobacter	0.9305	0.9429	0.01426	0.8696
+Rhizobium radiobacter	0.9306	0.9429	0.01426	0.8626
 Rhizobium leucaenae	0.9292	0.9429	0.01424	0.9621

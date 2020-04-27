@@ -13,7 +13,7 @@ public class ShotgunSingleFamilyAll {
     private String str;
 
     public static void main(String[] args) {
-        String inputDirPath = "data/in/genus_align/";
+        String inputDirPath = "data/in/genus_self/";
         String outputFilePath = "data/out/genus/";
         File folder = new File(inputDirPath);
         File[] FilesList = folder.listFiles();

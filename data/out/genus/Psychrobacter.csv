@@ -4,7 +4,7 @@ Psychrobacter pocilloporae	0.9439	0.9529	0.01203	0.7481
 Psychrobacter phenylpyruvicus	0.9319	0.9533	0.01160	1.845
 Psychrobacter arenosus	0.9376	0.9531	0.01185	1.308
 Psychrobacter namhaensis	0.9657	0.9523	0.01192	1.124
-Psychrobacter frigidicola	0.9613	0.9524	0.01203	0.7398
+Psychrobacter frigidicola	0.9613	0.9525	0.01203	0.7315
 Psychrobacter cryohalolentis	0.9646	0.9524	0.01195	1.021
 Psychrobacter aquaticus	0.9654	0.9523	0.01193	1.098
 Psychrobacter glaciei	0.9585	0.9525	0.01208	0.4967
@@ -20,7 +20,7 @@ Psychrobacter okhotskensis	0.9615	0.9524	0.01203	0.7564
 Psychrobacter sanguinis	0.9401	0.9530	0.01193	1.081
 Psychrobacter salsus	0.9468	0.9529	0.01208	0.5050
 Psychrobacter piscatorii	0.9590	0.9525	0.01207	0.5385
-Psychrobacter faecalis	0.9547	0.9526	0.01211	0.1734
+Psychrobacter faecalis	0.9547	0.9526	0.01212	0.1733
 Psychrobacter glacincola	0.9604	0.9525	0.01205	0.6556
 Psychrobacter arcticus	0.9602	0.9525	0.01205	0.6390
 Psychrobacter immobilis	0.9254	0.9534	0.01121	2.498
@@ -29,9 +29,9 @@ Psychrobacter ciconiae	0.9301	0.9533	0.01150	2.017
 Psychrobacter vallis	0.9642	0.9524	0.01196	0.9866
 Psychrobacter cibarius	0.9592	0.9525	0.01207	0.5551
 Psychrobacter aquimaris	0.9616	0.9524	0.01203	0.7648
-Psychrobacter fulvigenes	0.9561	0.9526	0.01211	0.2890
+Psychrobacter fulvigenes	0.9562	0.9526	0.01211	0.2973
 Psychrobacter oceani	0.9504	0.9528	0.01211	0.1982
-Psychrobacter fozii	0.9491	0.9528	0.01210	0.3058
+Psychrobacter fozii	0.9491	0.9528	0.01211	0.3055
 Psychrobacter maritimus	0.9468	0.9529	0.01208	0.5050
 Psychrobacter lutiphocae	0.9202	0.9536	0.01081	3.090
 Psychrobacter jeotgali	0.9602	0.9525	0.01205	0.6390

@@ -23,12 +23,12 @@ Vibrio rotiferianus	0.9487	0.9386	0.01111	0.9091
 Vibrio thalassae	0.9424	0.9387	0.01114	0.3321
 Vibrio splendidus	0.9447	0.9387	0.01113	0.5391
 Vibrio gazogenes	0.9148	0.9389	0.01092	2.207
-Vibrio fortis	0.9479	0.9386	0.01111	0.8371
+Vibrio fortis	0.9480	0.9386	0.01111	0.8461
 Vibrio rumoiensis	0.9292	0.9388	0.01111	0.8641
-Vibrio panuliri	0.9395	0.9387	0.01115	0.07175
+Vibrio panuliri	0.9394	0.9387	0.01115	0.06278
 Vibrio hippocampi	0.9242	0.9389	0.01106	1.329
 Vibrio fluvialis	0.9454	0.9387	0.01113	0.6020
-Vibrio toranzoniae	0.9316	0.9388	0.01113	0.6469
+Vibrio toranzoniae	0.9317	0.9388	0.01113	0.6379
 Vibrio anguillarum	0.9386	0.9387	0.01115	0.008969
 Vibrio diabolicus	0.9472	0.9387	0.01112	0.7644
 Vibrio porteresiae	0.9231	0.9389	0.01105	1.430
@@ -37,7 +37,7 @@ Vibrio crassostreae	0.9439	0.9387	0.01114	0.4668
 Vibrio campbellii	0.9396	0.9387	0.01115	0.08072
 Vibrio cyclitrophicus	0.9453	0.9387	0.01113	0.5930
 Vibrio mexicanus	0.9246	0.9389	0.01107	1.292
-Vibrio inusitatus	0.9365	0.9387	0.01115	0.1973
+Vibrio inusitatus	0.9365	0.9387	0.01114	0.1975
 Vibrio algivorus	0.9277	0.9388	0.01110	1
 Vibrio olivae	0.9304	0.9388	0.01112	0.7554
 Vibrio metschnikovii	0.9199	0.9389	0.01101	1.726
@@ -50,7 +50,7 @@ Vibrio albensis	0.9147	0.9389	0.01092	2.216
 Vibrio sonorensis	0.9564	0.9386	0.01102	1.615
 Vibrio pectenicida	0.9340	0.9388	0.01114	0.4309
 Vibrio pomeroyi	0.9426	0.9387	0.01114	0.3501
-Vibrio plantisponsor	0.9477	0.9386	0.01112	0.8183
+Vibrio plantisponsor	0.9477	0.9387	0.01111	0.8101
 Vibrio litoralis	0.9234	0.9389	0.01105	1.403
 Vibrio ponticus	0.9413	0.9387	0.01114	0.2334
 Vibrio mytili	0.9479	0.9386	0.01111	0.8371
@@ -60,7 +60,7 @@ Vibrio hispanicus	0.9405	0.9387	0.01115	0.1614
 Vibrio natriegens	0.9457	0.9387	0.01113	0.6289
 Vibrio tubiashii subsp. tubiashii	0.9380	0.9387	0.01115	0.06278
 Vibrio celticus	0.9426	0.9387	0.01114	0.3501
-Vibrio furnissii	0.9487	0.9386	0.01111	0.9091
+Vibrio furnissii	0.9486	0.9386	0.01111	0.9001
 Vibrio stylophorae	0.9046	0.9390	0.01067	3.224
 Vibrio sinaloensis	0.9472	0.9387	0.01112	0.7644
 Vibrio renipiscarius	0.9261	0.9388	0.01108	1.146
@@ -78,7 +78,7 @@ Vibrio maritimus	0.9531	0.9386	0.01106	1.311
 Vibrio scophthalmi	0.9362	0.9388	0.01114	0.2334
 Vibrio mangrovi	0.9260	0.9388	0.01108	1.155
 Vibrio tritonius	0.9384	0.9387	0.01115	0.02691
-Vibrio areninigrae	0.9408	0.9387	0.01115	0.1883
+Vibrio areninigrae	0.9409	0.9387	0.01114	0.1975
 Vibrio rhizosphaerae	0.9155	0.9389	0.01093	2.141
 Vibrio hangzhouensis	0.9487	0.9386	0.01111	0.9091
 Vibrio cortegadensis	0.9450	0.9387	0.01113	0.5660
@@ -93,20 +93,20 @@ Vibrio gallaecicus	0.9362	0.9388	0.01114	0.2334
 Vibrio owensii	0.9498	0.9386	0.01110	1.009
 Vibrio vulnificus	0.9471	0.9387	0.01112	0.7554
 Vibrio aestuarianus	0.9375	0.9387	0.01115	0.1076
-Vibrio atlanticus	0.9410	0.9387	0.01115	0.2063
+Vibrio atlanticus	0.9410	0.9387	0.01114	0.2065
 Vibrio ordalii	0.9290	0.9388	0.01111	0.8821
 Vibrio variabilis	0.9426	0.9387	0.01114	0.3501
 Vibrio agarivorans	0.9439	0.9387	0.01114	0.4668
 Vibrio salilacus	0.9336	0.9388	0.01114	0.4668
 Vibrio cholerae	0.9196	0.9389	0.01100	1.755
-Vibrio hyugaensis	0.9569	0.9386	0.01102	1.661
+Vibrio hyugaensis	0.9569	0.9386	0.01101	1.662
 Vibrio alfacsensis	0.9413	0.9387	0.01114	0.2334
 Vibrio gallicus	0.9323	0.9388	0.01113	0.5840
 Vibrio marisflavi	0.9291	0.9388	0.01111	0.8731
 Vibrio harveyi	0.9476	0.9387	0.01112	0.8004
 Vibrio europaeus	0.9398	0.9387	0.01115	0.09865
 Vibrio brasiliensis	0.9467	0.9387	0.01112	0.7194
-Vibrio nigripulchritudo	0.9363	0.9387	0.01114	0.2154
+Vibrio nigripulchritudo	0.9363	0.9388	0.01114	0.2244
 Vibrio pacinii	0.9367	0.9387	0.01115	0.1794
 Vibrio penaeicida	0.9422	0.9387	0.01114	0.3142
 Vibrio chagasii	0.9438	0.9387	0.01114	0.4578

@@ -1,5 +1,5 @@
 Lactobacillus saerimneri	0.8629	0.8612	0.01761	0.09654
-Lactobacillus acidifarinae	0.8800	0.8612	0.01756	1.071
+Lactobacillus acidifarinae	0.8800	0.8612	0.01755	1.071
 Lactobacillus plantarum subsp. argentoratensis	0.8727	0.8612	0.01759	0.6538
 Lactobacillus sakei subsp. carnosus	0.8693	0.8612	0.01760	0.4602
 Lactobacillus vespulae	0.8583	0.8613	0.01761	0.1704
@@ -9,8 +9,8 @@ Lactobacillus malefermentans	0.8770	0.8612	0.01757	0.8993
 Lactobacillus xiangfangensis	0.8749	0.8612	0.01758	0.7793
 Lactobacillus gastricus	0.8641	0.8612	0.01761	0.1647
 Lactobacillus delbrueckii subsp. bulgaricus	0.8454	0.8613	0.01757	0.9050
-Lactobacillus florum	0.8465	0.8613	0.01758	0.8419
-Lactobacillus apis	0.8378	0.8614	0.01753	1.346
+Lactobacillus florum	0.8465	0.8613	0.01757	0.8423
+Lactobacillus apis	0.8378	0.8614	0.01752	1.347
 Lactobacillus jensenii	0.8517	0.8613	0.01759	0.5458
 Lactobacillus melliventris	0.8291	0.8614	0.01745	1.851
 Lactobacillus delbrueckii subsp. sunkii	0.8443	0.8613	0.01756	0.9681
@@ -34,7 +34,7 @@ Lactobacillus rodentium	0.8505	0.8613	0.01759	0.6140
 Lactobacillus kimbladii	0.8281	0.8614	0.01744	1.909
 Lactobacillus coleohominis	0.8549	0.8613	0.01760	0.3636
 Lactobacillus farraginis	0.8767	0.8612	0.01757	0.8822
-Lactobacillus delbrueckii subsp. delbrueckii	0.8390	0.8614	0.01753	1.278
+Lactobacillus delbrueckii subsp. delbrueckii	0.8391	0.8614	0.01753	1.272
 Lactobacillus pontis	0.8618	0.8613	0.01761	0.02839
 Lactobacillus senioris	0.8825	0.8611	0.01754	1.220
 Lactobacillus apinorum	0.8472	0.8613	0.01758	0.8020
@@ -48,7 +48,7 @@ Lactobacillus mellifer	0.8478	0.8613	0.01758	0.7679
 Lactobacillus curieae	0.8784	0.8612	0.01756	0.9795
 Lactobacillus songhuajiangensis	0.8648	0.8612	0.01761	0.2044
 Lactobacillus aquaticus	0.8827	0.8611	0.01754	1.231
-Lactobacillus kullabergensis	0.8246	0.8614	0.01741	2.114
+Lactobacillus kullabergensis	0.8246	0.8614	0.01740	2.115
 Lactobacillus pantheris	0.8669	0.8612	0.01760	0.3239
 Lactobacillus graminis	0.8796	0.8612	0.01756	1.048
 Lactobacillus panis	0.8500	0.8613	0.01759	0.6424
@@ -62,18 +62,18 @@ Lactobacillus sunkii	0.8848	0.8611	0.01752	1.353
 Lactobacillus salivarius	0.8629	0.8612	0.01761	0.09654
 Lactobacillus iwatensis	0.8694	0.8612	0.01760	0.4659
 Lactobacillus formosensis	0.8617	0.8613	0.01761	0.02271
-Lactobacillus modestisalitolerans	0.8734	0.8612	0.01759	0.6936
+Lactobacillus modestisalitolerans	0.8734	0.8612	0.01758	0.6940
 Lactobacillus antri	0.8405	0.8614	0.01754	1.192
 Lactobacillus amylophilus	0.8439	0.8613	0.01756	0.9909
 Lactobacillus helsingborgensis	0.8289	0.8614	0.01745	1.862
 Lactobacillus zeae	0.8757	0.8612	0.01758	0.8248
 Lactobacillus suebicus	0.8821	0.8611	0.01754	1.197
 Lactobacillus kefiranofaciens subsp. kefirgranum	0.8360	0.8614	0.01751	1.451
-Lactobacillus paucivorans	0.8735	0.8612	0.01759	0.6993
+Lactobacillus paucivorans	0.8735	0.8612	0.01758	0.6997
 Lactobacillus ingluviei	0.8494	0.8613	0.01759	0.6765
 Lactobacillus vaginalis	0.8509	0.8613	0.01759	0.5912
 Lactobacillus versmoldensis	0.8757	0.8612	0.01758	0.8248
-Lactobacillus acidipiscis	0.8444	0.8613	0.01757	0.9619
+Lactobacillus acidipiscis	0.8444	0.8613	0.01756	0.9624
 Lactobacillus parafarraginis	0.8826	0.8611	0.01754	1.226
 Lactobacillus ozensis	0.8644	0.8612	0.01761	0.1817
 Lactobacillus equi	0.8578	0.8613	0.01761	0.1988
@@ -89,14 +89,14 @@ Lactobacillus taiwanensis	0.8608	0.8613	0.01761	0.02839
 Lactobacillus crustorum	0.8620	0.8613	0.01761	0.03975
 Lactobacillus uvarum	0.8785	0.8612	0.01756	0.9852
 Lactobacillus paracasei subsp. paracasei	0.8764	0.8612	0.01757	0.8651
-Lactobacillus paraplantarum	0.8780	0.8612	0.01757	0.9562
+Lactobacillus paraplantarum	0.8780	0.8612	0.01756	0.9567
 Lactobacillus reuteri	0.8398	0.8614	0.01754	1.231
 Lactobacillus fabifermentans	0.8773	0.8612	0.01757	0.9163
 Lactobacillus johnsonii	0.8537	0.8613	0.01760	0.4318
-Lactobacillus pasteurii	0.8343	0.8614	0.01750	1.549
+Lactobacillus pasteurii	0.8343	0.8614	0.0175	1.549
 Lactobacillus manihotivorans	0.8770	0.8612	0.01757	0.8993
 Lactobacillus amylotrophicus	0.8565	0.8613	0.01760	0.2727
-Lactobacillus yonginensis	0.8702	0.8612	0.01760	0.5114
+Lactobacillus yonginensis	0.8702	0.8612	0.01759	0.5117
 Lactobacillus kunkeei	0.8493	0.8613	0.01759	0.6822
 Lactobacillus coryniformis subsp. coryniformis	0.8564	0.8613	0.01760	0.2784
 Lactobacillus animalis	0.8705	0.8612	0.01759	0.5287
@@ -107,11 +107,11 @@ Lactobacillus kimchicus	0.8798	0.8612	0.01756	1.059
 Lactobacillus kefiranofaciens subsp. kefiranofaciens	0.8315	0.8614	0.01747	1.712
 Lactobacillus nagelii	0.8679	0.8612	0.01760	0.3807
 Lactobacillus mindensis	0.8636	0.8612	0.01761	0.1363
-Lactobacillus secaliphilus	0.8523	0.8613	0.01760	0.5114
+Lactobacillus secaliphilus	0.8523	0.8613	0.01759	0.5117
 Lactobacillus nenjiangensis	0.8755	0.8612	0.01758	0.8134
 Lactobacillus ruminis	0.8586	0.8613	0.01761	0.1533
 Lactobacillus camelliae	0.8698	0.8612	0.01760	0.4886
-Lactobacillus equicursoris	0.8364	0.8614	0.01752	1.427
+Lactobacillus equicursoris	0.8364	0.8614	0.01751	1.428
 Lactobacillus oeni	0.8805	0.8612	0.01755	1.100
 Lactobacillus fuchuensis	0.8754	0.8612	0.01758	0.8077
 Lactobacillus ghanensis	0.8742	0.8612	0.01758	0.7395
@@ -123,7 +123,7 @@ Lactobacillus namurensis	0.8794	0.8612	0.01756	1.036
 Lactobacillus shenzhenensis	0.8506	0.8613	0.01759	0.6083
 Lactobacillus concavus	0.8686	0.8612	0.01760	0.4205
 Lactobacillus dextrinicus	0.8671	0.8612	0.01760	0.3352
-Lactobacillus vaccinostercus	0.8735	0.8612	0.01759	0.6993
+Lactobacillus vaccinostercus	0.8735	0.8612	0.01758	0.6997
 Lactobacillus frumenti	0.8527	0.8613	0.01760	0.4886
 Lactobacillus gasseri	0.8605	0.8613	0.01761	0.04543
 Lactobacillus equigenerosi	0.8570	0.8613	0.01760	0.2443
@@ -146,28 +146,28 @@ Lactobacillus porcinae	0.8795	0.8612	0.01756	1.042
 Lactobacillus sucicola	0.8750	0.8612	0.01758	0.7850
 Lactobacillus faecis	0.8565	0.8613	0.01760	0.2727
 Lactobacillus fermentum	0.8360	0.8614	0.01751	1.451
-Lactobacillus parabuchneri	0.8817	0.8611	0.01755	1.174
+Lactobacillus parabuchneri	0.8817	0.8611	0.01754	1.174
 Lactobacillus aviarius subsp. aviarius	0.8421	0.8614	0.01755	1.100
 Lactobacillus odoratitofui	0.8694	0.8612	0.01760	0.4659
 Lactobacillus casei	0.8716	0.8612	0.01759	0.5912
 Lactobacillus brantae	0.8752	0.8612	0.01758	0.7964
 Lactobacillus paralimentarius	0.8431	0.8614	0.01756	1.042
-Lactobacillus buchneri	0.8759	0.8612	0.01758	0.8362
+Lactobacillus buchneri	0.8759	0.8612	0.01757	0.8367
 Lactobacillus hominis	0.8542	0.8613	0.01760	0.4034
 Lactobacillus thailandensis	0.8483	0.8613	0.01758	0.7395
 Lactobacillus bombi	0.8512	0.8613	0.01759	0.5742
 Lactobacillus furfuricola	0.8733	0.8612	0.01759	0.6879
-Lactobacillus sakei subsp. sakei	0.8765	0.8612	0.01757	0.8708
+Lactobacillus sakei subsp. sakei	0.8764	0.8612	0.01757	0.8651
 Lactobacillus alimentarius	0.8560	0.8613	0.01760	0.3011
 Lactobacillus harbinensis	0.8486	0.8613	0.01758	0.7224
 Lactobacillus gorillae	0.8460	0.8613	0.01757	0.8708
 Lactobacillus kimchiensis	0.8562	0.8613	0.01760	0.2898
 Lactobacillus apodemi	0.8621	0.8613	0.01761	0.04543
-Lactobacillus amylolyticus	0.8373	0.8614	0.01752	1.376
+Lactobacillus amylolyticus	0.8372	0.8614	0.01752	1.381
 Lactobacillus rennini	0.8448	0.8613	0.01757	0.9391
 Lactobacillus fructivorans	0.8790	0.8612	0.01756	1.014
 Lactobacillus siliginis	0.8578	0.8613	0.01761	0.1988
-Lactobacillus wasatchensis	0.8737	0.8612	0.01758	0.7110
+Lactobacillus wasatchensis	0.8736	0.8612	0.01758	0.7053
 Lactobacillus spicheri	0.8756	0.8612	0.01758	0.8191
 Lactobacillus hamsteri	0.8375	0.8614	0.01752	1.364
 Lactobacillus rossiae	0.8626	0.8612	0.01761	0.07950
@@ -184,9 +184,9 @@ Lactobacillus pentosus	0.8763	0.8612	0.01757	0.8594
 Lactobacillus gallinarum	0.8386	0.8614	0.01753	1.301
 Lactobacillus lindneri	0.8623	0.8613	0.01761	0.05679
 Lactobacillus futsaii	0.8560	0.8613	0.01760	0.3011
-Lactobacillus sanfranciscensis	0.8444	0.8613	0.01757	0.9619
-Lactobacillus fornicalis	0.8575	0.8613	0.01761	0.2158
-Lactobacillus curvatus	0.8808	0.8612	0.01755	1.117
+Lactobacillus sanfranciscensis	0.8445	0.8613	0.01756	0.9567
+Lactobacillus fornicalis	0.8575	0.8613	0.01760	0.2159
+Lactobacillus curvatus	0.8809	0.8612	0.01755	1.123
 Lactobacillus plajomi	0.8611	0.8613	0.01761	0.01136
 Lactobacillus sharpeae	0.8488	0.8613	0.01758	0.7110
 Lactobacillus iners	0.8229	0.8615	0.01739	2.220
