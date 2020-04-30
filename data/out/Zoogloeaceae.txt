@@ -1,4 +1,0 @@
-Zoogloea oryzae	0.9488	0.9465	0.006089	0.3777
-Zoogloea resiniphila	0.9476	0.9469	0.006185	0.1132
-Zoogloea caeni	0.9534	0.9450	0.004552	1.845
-Zoogloea oleivorans	0.9386	0.9499	0.00250	4.52
